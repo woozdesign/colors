@@ -6,6 +6,9 @@ const allColors = { ...require('../dist/light.js'), ...require('../dist/dark.js'
 
 const outputDir = './dist'; // Modify this as needed
 
+let lightContent = ':root, .light, .light-theme {\n';
+let darkContent = '.dark, .dark-theme {\n';
+
 for (const colorNameWithTheme in allColors) {
   const isLight = colorNameWithTheme.endsWith('_light');
   const isDark = colorNameWithTheme.endsWith('_dark');
@@ -28,7 +31,16 @@ function generateScssFile(colorObj, theme, colorName) {
     content += variableName;
   }
 
-  content += `\n.woozdesign-themes-${theme} {\n`;
+  content += '\n';
+
+  switch (theme) {
+    case 'light':
+      content += lightContent;
+      break;
+    case 'dark':
+      content += darkContent;
+      break;
+  }
 
   for (const shade in colorObj) {
     // Generate CSS custom properties (variables) using SCSS
@@ -63,3 +75,13 @@ Object.keys(allColors).forEach((colorNameWithTheme) => {
 
 // Write main colors.scss file
 fs.writeFileSync(path.join(outputDir, 'colors.scss'), importContent);
+
+const sass = require('sass');
+
+// Compile the SCSS to CSS
+const result = sass.renderSync({
+  file: path.join(outputDir, 'colors.scss'),
+});
+
+// Write the compiled CSS to a file
+fs.writeFileSync(path.join(outputDir, 'colors.css'), result.css);
