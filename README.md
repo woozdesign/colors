@@ -11,17 +11,5 @@ $ yarn add @woozdesign/colors
 ## 🔨 Usage
 
 ```jsx
-import '@woozdesign/colors'; // import color tokens
-
-import { Button, Layout } from 'woozdesign-ui';
-
-const App = () => (
-  <Layout.Container>
-    <Layout.Row>
-      <Layout.Col xs={24}>
-        <Button type="primary">PRESS ME</Button>
-      </Layout.Col>
-    </Layout.Row>
-  </Layout.Container>
-);
+import '@woozdesign/colors'; // Import color tokens inside the root file
 ```
