@@ -2,10 +2,11 @@ const fs = require('fs');
 const path = require('path');
 
 // Import color themes
-const { gray, ...otherColorsLight } = require('../src/light.ts');
-const { grayDark, ...otherColorsDark } = require('../src/dark.ts');
+const { gray, ...otherColorsLight } = require('../dist/light');
+const { grayDark, ...otherColorsDark } = require('../dist/dark');
 
 const outputDir = './dist'; // Modify this as needed
+let importStatements = ''; // This will accumulate all import statements for the colors.scss
 
 // Generate SCSS for light theme
 generateScssFile(gray, 'light', 'gray');
@@ -19,6 +20,9 @@ for (const colorName in otherColorsDark) {
   generateScssFile(otherColorsDark[colorName], 'dark', colorName);
 }
 
+// Write the accumulated import statements into colors.scss
+fs.writeFileSync(path.join(outputDir, 'colors.scss'), importStatements);
+
 function generateScssFile(colorObj, theme, colorName) {
   let content = '';
   for (const shade in colorObj) {
@@ -31,6 +35,10 @@ function generateScssFile(colorObj, theme, colorName) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Write SCSS file
-  fs.writeFileSync(path.join(outputDir, `${colorName}-${theme}.scss`), content);
+  // Write individual SCSS file
+  const filename = `${colorName}-${theme}.scss`;
+  fs.writeFileSync(path.join(outputDir, filename), content);
+
+  // Add an import statement for this file to the colors.scss content
+  importStatements += `@import "${filename}";\n`;
 }

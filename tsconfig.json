@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "module": "esnext",
+    "module": "CommonJS",
     "target": "es5", // Modified for broader browser support
     "moduleResolution": "node",
     "jsx": "react",
