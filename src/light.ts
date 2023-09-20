@@ -1,4 +1,4 @@
-export const gray = {
+export const gray_light = {
   10: 'hsl(0, 0%, 99.0%)',
   20: 'hsl(0, 0%, 97.5%)',
   30: 'hsl(0, 0%, 94.6%)',
@@ -13,7 +13,7 @@ export const gray = {
   120: 'hsl(0, 0%, 12.5%)',
 };
 
-export const mauve = {
+export const mauve_light = {
   10: 'hsl(300, 26.0%, 99.0%)',
   20: 'hsl(270, 20.0%, 98.0%)',
   30: 'hsl(267, 13.8%, 95.3%)',
@@ -28,7 +28,7 @@ export const mauve = {
   120: 'hsl(260, 10.0%, 13.5%)',
 };
 
-export const slate = {
+export const slate_light = {
   10: 'hsl(240, 22.0%, 99.0%)',
   20: 'hsl(240, 20.0%, 98.0%)',
   30: 'hsl(239, 13.4%, 95.4%)',
@@ -43,7 +43,7 @@ export const slate = {
   120: 'hsl(210, 12.0%, 12.5%)',
 };
 
-export const sage = {
+export const sage_light = {
   10: 'hsl(155, 30.0%, 98.8%)',
   20: 'hsl(150, 14.3%, 97.3%)',
   30: 'hsl(150, 8.0%, 94.5%)',
@@ -58,7 +58,7 @@ export const sage = {
   120: 'hsl(155, 12.0%, 11.5%)',
 };
 
-export const olive = {
+export const olive_light = {
   10: 'hsl(110, 20.0%, 99.0%)',
   20: 'hsl(120, 16.7%, 97.6%)',
   30: 'hsl(118, 8.4%, 94.8%)',
@@ -73,7 +73,7 @@ export const olive = {
   120: 'hsl(110, 8.0%, 12.0%)',
 };
 
-export const sand = {
+export const sand_light = {
   10: 'hsl(50, 20.0%, 99.0%)',
   20: 'hsl(60, 7.7%, 97.5%)',
   30: 'hsl(59, 5.8%, 94.5%)',
@@ -88,7 +88,7 @@ export const sand = {
   120: 'hsl(50, 8.0%, 12.0%)',
 };
 
-export const tomato = {
+export const tomato_light = {
   10: 'hsl(10, 100%, 99.4%)',
   20: 'hsl(8, 100%, 98.4%)',
   30: 'hsl(8, 100%, 96.6%)',
@@ -103,7 +103,7 @@ export const tomato = {
   120: 'hsl(8, 50.0%, 24.0%)',
 };
 
-export const red = {
+export const red_light = {
   10: 'hsl(359, 100%, 99.4%)',
   20: 'hsl(0, 100%, 98.4%)',
   30: 'hsl(360, 100%, 96.8%)',
@@ -118,7 +118,7 @@ export const red = {
   120: 'hsl(350, 63.0%, 24.0%)',
 };
 
-export const ruby = {
+export const ruby_light = {
   10: 'hsl(348, 100%, 99.5%)',
   20: 'hsl(345, 100%, 98.4%)',
   30: 'hsl(345, 89.9%, 96.7%)',
@@ -133,7 +133,7 @@ export const ruby = {
   120: 'hsl(344, 63.0%, 24.0%)',
 };
 
-export const crimson = {
+export const crimson_light = {
   10: 'hsl(332, 100%, 99.4%)',
   20: 'hsl(330, 100%, 98.4%)',
   30: 'hsl(331, 85.6%, 96.6%)',
@@ -148,7 +148,7 @@ export const crimson = {
   120: 'hsl(332, 63.0%, 23.5%)',
 };
 
-export const pink = {
+export const pink_light = {
   10: 'hsl(322, 100%, 99.4%)',
   20: 'hsl(323, 100%, 98.4%)',
   30: 'hsl(323, 86.3%, 96.5%)',
@@ -163,7 +163,7 @@ export const pink = {
   120: 'hsl(320, 70.0%, 23.2%)',
 };
 
-export const plum = {
+export const plum_light = {
   10: 'hsl(292, 90.0%, 99.4%)',
   20: 'hsl(300, 100%, 98.6%)',
   30: 'hsl(299, 71.2%, 96.4%)',
@@ -178,7 +178,7 @@ export const plum = {
   120: 'hsl(291, 57.0%, 23.2%)',
 };
 
-export const purple = {
+export const purple_light = {
   10: 'hsl(280, 65.0%, 99.4%)',
   20: 'hsl(276, 100%, 99.0%)',
   30: 'hsl(276, 83.1%, 97.0%)',
@@ -193,7 +193,7 @@ export const purple = {
   120: 'hsl(270, 50.0%, 25.0%)',
 };
 
-export const violet = {
+export const violet_light = {
   10: 'hsl(255, 65.0%, 99.4%)',
   20: 'hsl(252, 100%, 99.0%)',
   30: 'hsl(252, 96.9%, 97.4%)',
@@ -208,7 +208,7 @@ export const violet = {
   120: 'hsl(250, 43.0%, 26.0%)',
 };
 
-export const iris = {
+export const iris_light = {
   10: 'hsl(243, 65.0%, 99.5%)',
   20: 'hsl(240, 100%, 99.0%)',
   30: 'hsl(240, 99.9%, 97.7%)',
@@ -223,7 +223,7 @@ export const iris = {
   120: 'hsl(238, 43.0%, 26.8%)',
 };
 
-export const indigo = {
+export const indigo_light = {
   10: 'hsl(225, 60.0%, 99.4%)',
   20: 'hsl(223, 100%, 98.6%)',
   30: 'hsl(223, 98.4%, 97.1%)',
@@ -238,7 +238,7 @@ export const indigo = {
   120: 'hsl(226, 50.0%, 24.0%)',
 };
 
-export const blue = {
+export const blue_light = {
   10: 'hsl(206, 100%, 99.2%)',
   20: 'hsl(210, 100%, 98.0%)',
   30: 'hsl(209, 100%, 96.5%)',
@@ -253,7 +253,7 @@ export const blue = {
   120: 'hsl(216, 71.0%, 23.0%)',
 };
 
-export const cyan = {
+export const cyan_light = {
   10: 'hsl(185, 60.0%, 98.7%)',
   20: 'hsl(185, 73.3%, 97.1%)',
   30: 'hsl(186, 70.2%, 94.4%)',
@@ -268,7 +268,7 @@ export const cyan = {
   120: 'hsl(192, 70.0%, 16.5%)',
 };
 
-export const teal = {
+export const teal_light = {
   10: 'hsl(165, 60.0%, 98.8%)',
   20: 'hsl(169, 64.7%, 96.7%)',
   30: 'hsl(169, 59.8%, 94.0%)',
@@ -283,7 +283,7 @@ export const teal = {
   120: 'hsl(174, 65.0%, 14.5%)',
 };
 
-export const jade = {
+export const jade_light = {
   10: 'hsl(151, 60.0%, 99.0%)',
   20: 'hsl(150, 77.8%, 96.5%)',
   30: 'hsl(151, 65.9%, 93.7%)',
@@ -298,7 +298,7 @@ export const jade = {
   120: 'hsl(160, 34.0%, 17.2%)',
 };
 
-export const green = {
+export const green_light = {
   10: 'hsl(136, 50.0%, 98.9%)',
   20: 'hsl(138, 62.5%, 96.9%)',
   30: 'hsl(139, 55.2%, 94.5%)',
@@ -313,7 +313,7 @@ export const green = {
   120: 'hsl(155, 40.0%, 16.5%)',
 };
 
-export const grass = {
+export const grass_light = {
   10: 'hsl(116, 50.0%, 98.9%)',
   20: 'hsl(120, 60.0%, 97.1%)',
   30: 'hsl(120, 53.6%, 94.8%)',
@@ -328,7 +328,7 @@ export const grass = {
   120: 'hsl(131, 30.0%, 18.0%)',
 };
 
-export const brown = {
+export const brown_light = {
   10: 'hsl(30, 40.0%, 99.1%)',
   20: 'hsl(30, 50.0%, 97.6%)',
   30: 'hsl(30, 52.5%, 94.6%)',
@@ -343,7 +343,7 @@ export const brown = {
   120: 'hsl(20, 15.0%, 21.0%)',
 };
 
-export const bronze = {
+export const bronze_light = {
   10: 'hsl(15, 30.0%, 99.1%)',
   20: 'hsl(17, 63.6%, 97.8%)',
   30: 'hsl(17, 42.1%, 95.2%)',
@@ -358,7 +358,7 @@ export const bronze = {
   120: 'hsl(12, 22.0%, 21.5%)',
 };
 
-export const gold = {
+export const gold_light = {
   10: 'hsl(50, 20.0%, 99.1%)',
   20: 'hsl(47, 52.9%, 96.7%)',
   30: 'hsl(46, 38.2%, 93.7%)',
@@ -373,7 +373,7 @@ export const gold = {
   120: 'hsl(36, 16.0%, 20.0%)',
 };
 
-export const sky = {
+export const sky_light = {
   10: 'hsl(193, 100%, 98.8%)',
   20: 'hsl(193, 100%, 97.3%)',
   30: 'hsl(192, 100%, 94.3%)',
@@ -388,7 +388,7 @@ export const sky = {
   120: 'hsl(195, 50.0%, 20.0%)',
 };
 
-export const mint = {
+export const mint_light = {
   10: 'hsl(165, 80.0%, 98.8%)',
   20: 'hsl(164, 88.2%, 96.7%)',
   30: 'hsl(164, 80.4%, 92.6%)',
@@ -403,7 +403,7 @@ export const mint = {
   120: 'hsl(171, 50.0%, 17.5%)',
 };
 
-export const lime = {
+export const lime_light = {
   10: 'hsl(85, 50.0%, 98.7%)',
   20: 'hsl(85, 66.7%, 96.5%)',
   30: 'hsl(85, 76.8%, 91.7%)',
@@ -418,7 +418,7 @@ export const lime = {
   120: 'hsl(75, 40.0%, 18.0%)',
 };
 
-export const yellow = {
+export const yellow_light = {
   10: 'hsl(60, 54.0%, 98.5%)',
   20: 'hsl(52, 100%, 93.9%)',
   30: 'hsl(53, 100%, 88.9%)',
@@ -433,7 +433,7 @@ export const yellow = {
   120: 'hsl(42, 40.0%, 20.0%)',
 };
 
-export const amber = {
+export const amber_light = {
   10: 'hsl(39, 70.0%, 99.0%)',
   20: 'hsl(40, 100%, 96.5%)',
   30: 'hsl(45, 100%, 90.8%)',
@@ -448,7 +448,7 @@ export const amber = {
   120: 'hsl(25, 40.0%, 22.0%)',
 };
 
-export const orange = {
+export const orange_light = {
   10: 'hsl(24, 70.0%, 99.0%)',
   20: 'hsl(22, 100%, 97.8%)',
   30: 'hsl(34, 100%, 91.7%)',
@@ -462,37 +462,3 @@ export const orange = {
   110: 'hsl(16, 45.0%, 41.5%)',
   120: 'hsl(16, 50.0%, 23.0%)',
 };
-
-// module.exports = {
-//   gray,
-//   mauve,
-//   slate,
-//   sage,
-//   olive,
-//   sand,
-//   tomato,
-//   red,
-//   ruby,
-//   crimson,
-//   pink,
-//   plum,
-//   purple,
-//   violet,
-//   iris,
-//   indigo,
-//   blue,
-//   cyan,
-//   teal,
-//   jade,
-//   green,
-//   grass,
-//   brown,
-//   bronze,
-//   gold,
-//   sky,
-//   mint,
-//   lime,
-//   yellow,
-//   amber,
-//   orange,
-// };

@@ -1,44 +1,65 @@
 const fs = require('fs');
 const path = require('path');
 
-// Import color themes
-const { gray, ...otherColorsLight } = require('../dist/light');
-const { grayDark, ...otherColorsDark } = require('../dist/dark');
+// Import all colors from the respective modules
+const allColors = { ...require('../dist/light.js'), ...require('../dist/dark.js') };
 
 const outputDir = './dist'; // Modify this as needed
-let importStatements = ''; // This will accumulate all import statements for the colors.scss
 
-// Generate SCSS for light theme
-generateScssFile(gray, 'light', 'gray');
-for (const colorName in otherColorsLight) {
-  generateScssFile(otherColorsLight[colorName], 'light', colorName);
+for (const colorNameWithTheme in allColors) {
+  const isLight = colorNameWithTheme.endsWith('_light');
+  const isDark = colorNameWithTheme.endsWith('_dark');
+
+  if (isLight) {
+    const colorName = colorNameWithTheme.replace('_light', '');
+    generateScssFile(allColors[colorNameWithTheme], 'light', colorName);
+  } else if (isDark) {
+    const colorName = colorNameWithTheme.replace('_dark', '');
+    generateScssFile(allColors[colorNameWithTheme], 'dark', colorName);
+  }
 }
-
-// Generate SCSS for dark theme
-generateScssFile(grayDark, 'dark', 'gray');
-for (const colorName in otherColorsDark) {
-  generateScssFile(otherColorsDark[colorName], 'dark', colorName);
-}
-
-// Write the accumulated import statements into colors.scss
-fs.writeFileSync(path.join(outputDir, 'colors.scss'), importStatements);
 
 function generateScssFile(colorObj, theme, colorName) {
   let content = '';
+
   for (const shade in colorObj) {
+    // Generate variables for colors
     const variableName = `$color-${colorName}-${shade}: ${colorObj[shade]};\n`;
     content += variableName;
   }
+
+  content += `\n.woozdesign-themes-${theme} {\n`;
+
+  for (const shade in colorObj) {
+    // Generate CSS custom properties (variables) using SCSS
+    content += `  --color-${colorName}-${shade}: #{$color-${colorName}-${shade}};\n`;
+  }
+
+  content += '}\n';
 
   // Ensure output directory exists
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Write individual SCSS file
-  const filename = `${colorName}-${theme}.scss`;
-  fs.writeFileSync(path.join(outputDir, filename), content);
-
-  // Add an import statement for this file to the colors.scss content
-  importStatements += `@import "${filename}";\n`;
+  // Write SCSS file
+  fs.writeFileSync(path.join(outputDir, `${colorName}-${theme}.scss`), content);
 }
+
+// Generate the main colors.scss that imports all the individual files
+let importContent = '';
+
+Object.keys(allColors).forEach((colorNameWithTheme) => {
+  const isLight = colorNameWithTheme.endsWith('_light');
+  const isDark = colorNameWithTheme.endsWith('_dark');
+  const baseColorName = isLight ? colorNameWithTheme.replace('_light', '') : colorNameWithTheme.replace('_dark', '');
+
+  if (isLight) {
+    importContent += `@import "${baseColorName}-light.scss";\n`;
+  } else if (isDark) {
+    importContent += `@import "${baseColorName}-dark.scss";\n`;
+  }
+});
+
+// Write main colors.scss file
+fs.writeFileSync(path.join(outputDir, 'colors.scss'), importContent);
