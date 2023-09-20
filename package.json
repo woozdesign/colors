@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "postinstall": "npm run build-scss-modules",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "build-scss-modules": "node -r esm ./scripts/build-scss-module.ts"
