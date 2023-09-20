@@ -7,7 +7,7 @@
     "postinstall": "npm run build-scss-modules",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "build-scss-modules": "node -r esm ./scripts/build-scss-module.ts"
+    "build-scss-modules": "node ./scripts/build-scss-module.ts"
   },
   "files": [
     "dist"
@@ -16,8 +16,6 @@
   "author": "Leo Kim <kim.kw8012@gmail.com> (http://woozlabs.com/)",
   "license": "MIT",
   "dependencies": {
-    "esm": "^3.2.25",
-    "@ctrl/tinycolor": "^4.0.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.0",
