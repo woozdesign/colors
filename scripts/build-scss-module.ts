@@ -26,7 +26,7 @@ fs.writeFileSync(path.join(outputDir, 'colors.scss'), importStatements);
 function generateScssFile(colorObj, theme, colorName) {
   let content = '';
   for (const shade in colorObj) {
-    const variableName = `color-$${colorName}-${shade}: ${colorObj[shade]};\n`;
+    const variableName = `$color-${colorName}-${shade}: ${colorObj[shade]};\n`;
     content += variableName;
   }
 
