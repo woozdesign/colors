@@ -13,3 +13,7 @@ $ yarn add @woozdesign/colors
 ```jsx
 import '@woozdesign/colors'; // Import color tokens inside the root file
 ```
+
+```scss
+@import '~@woozdesign/colors/dist/colors';
+```
