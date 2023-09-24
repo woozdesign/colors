@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Import all colors from the respective modules
-const allColors = { ...require('../dist/light_hex.js'), ...require('../dist/dark_hex.js') };
+const allColors = { ...require('../dist/light.js'), ...require('../dist/dark.js') };
 
 const outputDir = './dist'; // Modify this as needed
 
@@ -26,8 +26,9 @@ function generateScssFile(colorObj, theme, colorName) {
   let content = '';
 
   for (const shade in colorObj) {
+    const _shade = shade.replace(colorName, '');
     // Generate variables for colors
-    const variableName = `$color-${colorName}-${shade}: ${colorObj[shade]};\n`;
+    const variableName = `$color-${colorName}-${_shade}: ${colorObj[shade]};\n`;
     content += variableName;
   }
 
@@ -43,8 +44,9 @@ function generateScssFile(colorObj, theme, colorName) {
   }
 
   for (const shade in colorObj) {
+    const _shade = shade.replace(colorName, '');
     // Generate CSS custom properties (variables) using SCSS
-    content += `  --color-${colorName}-${shade}: #{$color-${colorName}-${shade}};\n`;
+    content += `  --color-${colorName}-${_shade}: #{$color-${colorName}-${_shade}};\n`;
   }
 
   content += '}\n';
