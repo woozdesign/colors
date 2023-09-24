@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Import all colors from the respective modules
-const allColors = { ...require('../dist/light.js'), ...require('../dist/dark.js') };
+const allColors = { ...require('../dist/light_hex.js'), ...require('../dist/dark_hex.js') };
 
 const outputDir = './dist'; // Modify this as needed
 
