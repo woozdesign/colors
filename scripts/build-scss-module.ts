@@ -1,89 +1,54 @@
 const fs = require('fs');
 const path = require('path');
+const sass = require('sass');
 
-// Import all colors from the respective modules
 const allColors = { ...require('../dist/light.js'), ...require('../dist/dark.js') };
+const outputDir = './dist';
 
-const outputDir = './dist'; // Modify this as needed
-
-let lightContent = ':root, .light, .light-theme {\n';
-let darkContent = '.dark, .dark-theme {\n';
-
-for (const colorNameWithTheme in allColors) {
-  const isLight = colorNameWithTheme.endsWith('_light');
-  const isDark = colorNameWithTheme.endsWith('_dark');
-
-  if (isLight) {
-    const colorName = colorNameWithTheme.replace('_light', '');
-    generateScssFile(allColors[colorNameWithTheme], 'light', colorName);
-  } else if (isDark) {
-    const colorName = colorNameWithTheme.replace('_dark', '');
-    generateScssFile(allColors[colorNameWithTheme], 'dark', colorName);
-  }
-}
+const themes = {
+  light: ':root, .light, .light-theme {\n',
+  dark: '.dark, .dark-theme {\n',
+};
 
 function generateScssFile(colorObj, theme, colorName) {
   let content = '';
+  let _colorName = colorName.replace('A', '');
+  let themeContent = themes[theme];
 
   for (const shade in colorObj) {
-    const _shade = shade.replace(colorName, '');
-    // Generate variables for colors
-    const variableName = `$color-${colorName}-${_shade}: ${colorObj[shade]};\n`;
-    content += variableName;
+    let modifiedShade = shade.replace(_colorName, '').replace('A', 'a');
+    content += `$color-${_colorName}-${modifiedShade}: ${colorObj[shade]};\n`;
   }
 
-  content += '\n';
-
-  switch (theme) {
-    case 'light':
-      content += lightContent;
-      break;
-    case 'dark':
-      content += darkContent;
-      break;
-  }
+  content += `\n${themeContent}`;
 
   for (const shade in colorObj) {
-    const _shade = shade.replace(colorName, '');
-    // Generate CSS custom properties (variables) using SCSS
-    content += `  --color-${colorName}-${_shade}: #{$color-${colorName}-${_shade}};\n`;
+    let modifiedShade = shade.replace(_colorName, '').replace('A', 'a');
+    content += `  --color-${_colorName}-${modifiedShade}: #{$color-${_colorName}-${modifiedShade}};\n`;
   }
 
   content += '}\n';
-
-  // Ensure output directory exists
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
-
-  // Write SCSS file
+  ensureDirExists(outputDir);
   fs.writeFileSync(path.join(outputDir, `${colorName}-${theme}.scss`), content);
 }
 
-// Generate the main colors.scss that imports all the individual files
-let importContent = '';
+function ensureDirExists(dir) {
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+}
 
-Object.keys(allColors).forEach((colorNameWithTheme) => {
-  const isLight = colorNameWithTheme.endsWith('_light');
-  const isDark = colorNameWithTheme.endsWith('_dark');
-  const baseColorName = isLight ? colorNameWithTheme.replace('_light', '') : colorNameWithTheme.replace('_dark', '');
+function main() {
+  let importContent = '';
 
-  if (isLight) {
-    importContent += `@import "${baseColorName}-light.scss";\n`;
-  } else if (isDark) {
-    importContent += `@import "${baseColorName}-dark.scss";\n`;
+  for (const colorNameWithTheme in allColors) {
+    const theme = colorNameWithTheme.endsWith('_light') ? 'light' : 'dark';
+    const colorName = colorNameWithTheme.replace(`_${theme}`, '');
+    generateScssFile(allColors[colorNameWithTheme], theme, colorName);
+    importContent += `@import "${colorName}-${theme}.scss";\n`;
   }
-});
 
-// Write main colors.scss file
-fs.writeFileSync(path.join(outputDir, 'colors.scss'), importContent);
+  fs.writeFileSync(path.join(outputDir, 'colors.scss'), importContent);
+  const result = sass.renderSync({ file: path.join(outputDir, 'colors.scss') });
+  fs.writeFileSync(path.join(outputDir, 'colors.css'), result.css);
+}
 
-const sass = require('sass');
-
-// Compile the SCSS to CSS
-const result = sass.renderSync({
-  file: path.join(outputDir, 'colors.scss'),
-});
-
-// Write the compiled CSS to a file
-fs.writeFileSync(path.join(outputDir, 'colors.css'), result.css);
+main();
