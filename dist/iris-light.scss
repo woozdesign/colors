@@ -1,0 +1,27 @@
+$color-iris-1: hsl(243, 65.0%, 99.5%);
+$color-iris-2: hsl(240, 100%, 99.0%);
+$color-iris-3: hsl(240, 99.9%, 97.7%);
+$color-iris-4: hsl(240, 93.5%, 95.9%);
+$color-iris-5: hsl(240, 86.5%, 93.4%);
+$color-iris-6: hsl(240, 80.2%, 89.8%);
+$color-iris-7: hsl(239, 75.3%, 84.6%);
+$color-iris-8: hsl(238, 73.9%, 77.5%);
+$color-iris-9: hsl(240, 60.0%, 59.8%);
+$color-iris-10: hsl(240, 55.7%, 56.7%);
+$color-iris-11: hsl(240, 50.0%, 52.0%);
+$color-iris-12: hsl(238, 43.0%, 26.8%);
+
+:root, .light, .light-theme {
+  --color-iris-1: #{$color-iris-1};
+  --color-iris-2: #{$color-iris-2};
+  --color-iris-3: #{$color-iris-3};
+  --color-iris-4: #{$color-iris-4};
+  --color-iris-5: #{$color-iris-5};
+  --color-iris-6: #{$color-iris-6};
+  --color-iris-7: #{$color-iris-7};
+  --color-iris-8: #{$color-iris-8};
+  --color-iris-9: #{$color-iris-9};
+  --color-iris-10: #{$color-iris-10};
+  --color-iris-11: #{$color-iris-11};
+  --color-iris-12: #{$color-iris-12};
+}

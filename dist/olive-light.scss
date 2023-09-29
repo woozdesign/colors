@@ -1,0 +1,27 @@
+$color-olive-1: hsl(110, 20.0%, 99.0%);
+$color-olive-2: hsl(120, 16.7%, 97.6%);
+$color-olive-3: hsl(118, 8.4%, 94.8%);
+$color-olive-4: hsl(116, 6.0%, 92.1%);
+$color-olive-5: hsl(115, 4.9%, 89.4%);
+$color-olive-6: hsl(113, 4.2%, 86.5%);
+$color-olive-7: hsl(111, 3.6%, 82.6%);
+$color-olive-8: hsl(105, 2.9%, 72.9%);
+$color-olive-9: hsl(110, 3.0%, 54.5%);
+$color-olive-10: hsl(105, 2.7%, 49.4%);
+$color-olive-11: hsl(110, 3.0%, 38.5%);
+$color-olive-12: hsl(110, 8.0%, 12.0%);
+
+:root, .light, .light-theme {
+  --color-olive-1: #{$color-olive-1};
+  --color-olive-2: #{$color-olive-2};
+  --color-olive-3: #{$color-olive-3};
+  --color-olive-4: #{$color-olive-4};
+  --color-olive-5: #{$color-olive-5};
+  --color-olive-6: #{$color-olive-6};
+  --color-olive-7: #{$color-olive-7};
+  --color-olive-8: #{$color-olive-8};
+  --color-olive-9: #{$color-olive-9};
+  --color-olive-10: #{$color-olive-10};
+  --color-olive-11: #{$color-olive-11};
+  --color-olive-12: #{$color-olive-12};
+}

@@ -1,0 +1,27 @@
+$color-mint-1: hsl(165, 80.0%, 98.8%);
+$color-mint-2: hsl(164, 88.2%, 96.7%);
+$color-mint-3: hsl(164, 80.4%, 92.6%);
+$color-mint-4: hsl(165, 71.6%, 88.4%);
+$color-mint-5: hsl(165, 61.0%, 83.4%);
+$color-mint-6: hsl(166, 50.2%, 76.7%);
+$color-mint-7: hsl(166, 43.3%, 67.2%);
+$color-mint-8: hsl(168, 45.0%, 52.9%);
+$color-mint-9: hsl(167, 70.0%, 72.0%);
+$color-mint-10: hsl(167, 62.0%, 69.0%);
+$color-mint-11: hsl(172, 50.0%, 30.5%);
+$color-mint-12: hsl(171, 50.0%, 17.5%);
+
+:root, .light, .light-theme {
+  --color-mint-1: #{$color-mint-1};
+  --color-mint-2: #{$color-mint-2};
+  --color-mint-3: #{$color-mint-3};
+  --color-mint-4: #{$color-mint-4};
+  --color-mint-5: #{$color-mint-5};
+  --color-mint-6: #{$color-mint-6};
+  --color-mint-7: #{$color-mint-7};
+  --color-mint-8: #{$color-mint-8};
+  --color-mint-9: #{$color-mint-9};
+  --color-mint-10: #{$color-mint-10};
+  --color-mint-11: #{$color-mint-11};
+  --color-mint-12: #{$color-mint-12};
+}

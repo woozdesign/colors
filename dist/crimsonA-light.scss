@@ -1,0 +1,27 @@
+$color-crimson-a1: hsla(340, 100%, 51.0%, 0.012);
+$color-crimson-a2: hsla(330, 100%, 51.0%, 0.032);
+$color-crimson-a3: hsla(332, 99.1%, 47.1%, 0.063);
+$color-crimson-a4: hsla(331, 99.9%, 44.3%, 0.102);
+$color-crimson-a5: hsla(333, 99.9%, 42.3%, 0.153);
+$color-crimson-a6: hsla(333, 99.5%, 40.5%, 0.224);
+$color-crimson-a7: hsla(335, 99.7%, 39.1%, 0.322);
+$color-crimson-a8: hsla(336, 99.5%, 38.5%, 0.440);
+$color-crimson-a9: hsla(336, 99.9%, 44.3%, 0.761);
+$color-crimson-a10: hsla(336, 100%, 41.5%, 0.808);
+$color-crimson-a11: hsla(336, 99.8%, 38.5%, 0.887);
+$color-crimson-a12: hsla(332, 99.8%, 16.3%, 0.914);
+
+:root, .light, .light-theme {
+  --color-crimson-a1: #{$color-crimson-a1};
+  --color-crimson-a2: #{$color-crimson-a2};
+  --color-crimson-a3: #{$color-crimson-a3};
+  --color-crimson-a4: #{$color-crimson-a4};
+  --color-crimson-a5: #{$color-crimson-a5};
+  --color-crimson-a6: #{$color-crimson-a6};
+  --color-crimson-a7: #{$color-crimson-a7};
+  --color-crimson-a8: #{$color-crimson-a8};
+  --color-crimson-a9: #{$color-crimson-a9};
+  --color-crimson-a10: #{$color-crimson-a10};
+  --color-crimson-a11: #{$color-crimson-a11};
+  --color-crimson-a12: #{$color-crimson-a12};
+}

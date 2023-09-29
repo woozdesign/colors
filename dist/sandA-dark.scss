@@ -1,0 +1,27 @@
+$color-sand-a1: hsla(60, 98.4%, 4.7%, 0.084);
+$color-sand-a2: hsla(60, 99.4%, 84.8%, 0.013);
+$color-sand-a3: hsla(60, 85.5%, 93.4%, 0.070);
+$color-sand-a4: hsla(60, 97.7%, 96.1%, 0.104);
+$color-sand-a5: hsla(45, 94.8%, 94.0%, 0.139);
+$color-sand-a6: hsla(45, 91.2%, 95.1%, 0.174);
+$color-sand-a7: hsla(48, 92.4%, 95.3%, 0.226);
+$color-sand-a8: hsla(43, 95.9%, 95.5%, 0.321);
+$color-sand-a9: hsla(47, 98.1%, 95.2%, 0.377);
+$color-sand-a10: hsla(47, 96.1%, 96.0%, 0.464);
+$color-sand-a11: hsla(52, 98.1%, 97.6%, 0.667);
+$color-sand-a12: hsla(60, 88.0%, 99.5%, 0.927);
+
+.dark, .dark-theme {
+  --color-sand-a1: #{$color-sand-a1};
+  --color-sand-a2: #{$color-sand-a2};
+  --color-sand-a3: #{$color-sand-a3};
+  --color-sand-a4: #{$color-sand-a4};
+  --color-sand-a5: #{$color-sand-a5};
+  --color-sand-a6: #{$color-sand-a6};
+  --color-sand-a7: #{$color-sand-a7};
+  --color-sand-a8: #{$color-sand-a8};
+  --color-sand-a9: #{$color-sand-a9};
+  --color-sand-a10: #{$color-sand-a10};
+  --color-sand-a11: #{$color-sand-a11};
+  --color-sand-a12: #{$color-sand-a12};
+}

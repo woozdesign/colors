@@ -1,0 +1,27 @@
+$color-yellow-a1: hsla(0, 100%, 48.3%, 0.018);
+$color-yellow-a2: hsla(17, 100%, 49.3%, 0.044);
+$color-yellow-a3: hsla(36, 100%, 49.8%, 0.087);
+$color-yellow-a4: hsla(41, 100%, 49.7%, 0.122);
+$color-yellow-a5: hsla(44, 100%, 49.8%, 0.161);
+$color-yellow-a6: hsla(46, 99.2%, 50.8%, 0.213);
+$color-yellow-a7: hsla(47, 99.4%, 55.2%, 0.317);
+$color-yellow-a8: hsla(50, 99.6%, 59.2%, 0.516);
+$color-yellow-a9: hsla(53, 99.9%, 58.9%, 0.983);
+$color-yellow-a10: hsla(53, 99.7%, 68.2%, 0.988);
+$color-yellow-a11: hsla(55, 100%, 60.0%, 1);
+$color-yellow-a12: hsla(53, 100%, 83.9%, 1);
+
+.dark, .dark-theme {
+  --color-yellow-a1: #{$color-yellow-a1};
+  --color-yellow-a2: #{$color-yellow-a2};
+  --color-yellow-a3: #{$color-yellow-a3};
+  --color-yellow-a4: #{$color-yellow-a4};
+  --color-yellow-a5: #{$color-yellow-a5};
+  --color-yellow-a6: #{$color-yellow-a6};
+  --color-yellow-a7: #{$color-yellow-a7};
+  --color-yellow-a8: #{$color-yellow-a8};
+  --color-yellow-a9: #{$color-yellow-a9};
+  --color-yellow-a10: #{$color-yellow-a10};
+  --color-yellow-a11: #{$color-yellow-a11};
+  --color-yellow-a12: #{$color-yellow-a12};
+}

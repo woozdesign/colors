@@ -1,0 +1,27 @@
+$color-mint-a1: hsla(120, 100%, 43.9%, 0.005);
+$color-mint-a2: hsla(165, 100%, 49.0%, 0.031);
+$color-mint-a3: hsla(174, 100%, 49.8%, 0.074);
+$color-mint-a4: hsla(172, 100%, 49.8%, 0.113);
+$color-mint-a5: hsla(172, 100%, 49.9%, 0.152);
+$color-mint-a6: hsla(173, 100%, 50.0%, 0.208);
+$color-mint-a7: hsla(173, 99.8%, 54.7%, 0.312);
+$color-mint-a8: hsla(170, 99.6%, 59.2%, 0.516);
+$color-mint-a9: hsla(167, 99.6%, 78.4%, 0.910);
+$color-mint-a10: hsla(163, 99.5%, 80.5%, 0.949);
+$color-mint-a11: hsla(167, 99.8%, 65.8%, 0.862);
+$color-mint-a12: hsla(156, 99.7%, 89.9%, 0.957);
+
+.dark, .dark-theme {
+  --color-mint-a1: #{$color-mint-a1};
+  --color-mint-a2: #{$color-mint-a2};
+  --color-mint-a3: #{$color-mint-a3};
+  --color-mint-a4: #{$color-mint-a4};
+  --color-mint-a5: #{$color-mint-a5};
+  --color-mint-a6: #{$color-mint-a6};
+  --color-mint-a7: #{$color-mint-a7};
+  --color-mint-a8: #{$color-mint-a8};
+  --color-mint-a9: #{$color-mint-a9};
+  --color-mint-a10: #{$color-mint-a10};
+  --color-mint-a11: #{$color-mint-a11};
+  --color-mint-a12: #{$color-mint-a12};
+}

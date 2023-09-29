@@ -1,0 +1,27 @@
+$color-green-a1: hsla(120, 100%, 43.9%, 0.005);
+$color-green-a2: hsla(120, 100%, 49.3%, 0.022);
+$color-green-a3: hsla(149, 100%, 49.5%, 0.070);
+$color-green-a4: hsla(154, 100%, 49.7%, 0.109);
+$color-green-a5: hsla(153, 98.9%, 53.1%, 0.148);
+$color-green-a6: hsla(155, 99.1%, 55.5%, 0.200);
+$color-green-a7: hsla(152, 99.3%, 59.1%, 0.304);
+$color-green-a8: hsla(151, 99.6%, 62.4%, 0.503);
+$color-green-a9: hsla(151, 99.6%, 62.4%, 0.607);
+$color-green-a10: hsla(151, 100%, 62.9%, 0.697);
+$color-green-a11: hsla(151, 99.9%, 63.5%, 0.823);
+$color-green-a12: hsla(144, 99.6%, 86.6%, 0.940);
+
+.dark, .dark-theme {
+  --color-green-a1: #{$color-green-a1};
+  --color-green-a2: #{$color-green-a2};
+  --color-green-a3: #{$color-green-a3};
+  --color-green-a4: #{$color-green-a4};
+  --color-green-a5: #{$color-green-a5};
+  --color-green-a6: #{$color-green-a6};
+  --color-green-a7: #{$color-green-a7};
+  --color-green-a8: #{$color-green-a8};
+  --color-green-a9: #{$color-green-a9};
+  --color-green-a10: #{$color-green-a10};
+  --color-green-a11: #{$color-green-a11};
+  --color-green-a12: #{$color-green-a12};
+}

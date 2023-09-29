@@ -1,0 +1,27 @@
+$color-lime-a1: hsla(74, 99.8%, 4.7%, 0.709);
+$color-lime-a2: hsla(114, 100%, 49.3%, 0.022);
+$color-lime-a3: hsla(89, 100%, 50.0%, 0.065);
+$color-lime-a4: hsla(84, 100%, 49.8%, 0.100);
+$color-lime-a5: hsla(81, 98.9%, 53.0%, 0.135);
+$color-lime-a6: hsla(80, 99.0%, 57.6%, 0.187);
+$color-lime-a7: hsla(78, 99.5%, 60.9%, 0.282);
+$color-lime-a8: hsla(75, 99.6%, 63.3%, 0.477);
+$color-lime-a9: hsla(81, 99.8%, 70.5%, 0.927);
+$color-lime-a10: hsla(75, 99.8%, 63.5%, 0.936);
+$color-lime-a11: hsla(70, 99.9%, 58.0%, 0.836);
+$color-lime-a12: hsla(80, 99.5%, 87.6%, 0.966);
+
+.dark, .dark-theme {
+  --color-lime-a1: #{$color-lime-a1};
+  --color-lime-a2: #{$color-lime-a2};
+  --color-lime-a3: #{$color-lime-a3};
+  --color-lime-a4: #{$color-lime-a4};
+  --color-lime-a5: #{$color-lime-a5};
+  --color-lime-a6: #{$color-lime-a6};
+  --color-lime-a7: #{$color-lime-a7};
+  --color-lime-a8: #{$color-lime-a8};
+  --color-lime-a9: #{$color-lime-a9};
+  --color-lime-a10: #{$color-lime-a10};
+  --color-lime-a11: #{$color-lime-a11};
+  --color-lime-a12: #{$color-lime-a12};
+}

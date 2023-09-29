@@ -1,0 +1,27 @@
+$color-crimson-1: hsl(335, 20.0%, 9.6%);
+$color-crimson-2: hsl(336, 32.3%, 12.2%);
+$color-crimson-3: hsl(336, 40.2%, 16.0%);
+$color-crimson-4: hsl(336, 44.4%, 18.5%);
+$color-crimson-5: hsl(336, 48.4%, 21.3%);
+$color-crimson-6: hsl(336, 53.9%, 25.5%);
+$color-crimson-7: hsl(336, 62.7%, 32.8%);
+$color-crimson-8: hsl(336, 80.0%, 45.1%);
+$color-crimson-9: hsl(336, 80.0%, 57.8%);
+$color-crimson-10: hsl(339, 87.0%, 67.2%);
+$color-crimson-11: hsl(341, 100%, 76.0%);
+$color-crimson-12: hsl(330, 90.0%, 91.0%);
+
+.dark, .dark-theme {
+  --color-crimson-1: #{$color-crimson-1};
+  --color-crimson-2: #{$color-crimson-2};
+  --color-crimson-3: #{$color-crimson-3};
+  --color-crimson-4: #{$color-crimson-4};
+  --color-crimson-5: #{$color-crimson-5};
+  --color-crimson-6: #{$color-crimson-6};
+  --color-crimson-7: #{$color-crimson-7};
+  --color-crimson-8: #{$color-crimson-8};
+  --color-crimson-9: #{$color-crimson-9};
+  --color-crimson-10: #{$color-crimson-10};
+  --color-crimson-11: #{$color-crimson-11};
+  --color-crimson-12: #{$color-crimson-12};
+}

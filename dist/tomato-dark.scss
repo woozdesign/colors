@@ -1,0 +1,27 @@
+$color-tomato-1: hsl(10, 23.0%, 9.4%);
+$color-tomato-2: hsl(10, 39.0%, 11.6%);
+$color-tomato-3: hsl(9, 48.3%, 15.5%);
+$color-tomato-4: hsl(9, 53.0%, 18.1%);
+$color-tomato-5: hsl(9, 57.0%, 20.7%);
+$color-tomato-6: hsl(9, 61.8%, 24.5%);
+$color-tomato-7: hsl(9, 68.4%, 31.1%);
+$color-tomato-8: hsl(10, 80.4%, 43.9%);
+$color-tomato-9: hsl(10, 78.0%, 54.0%);
+$color-tomato-10: hsl(10, 88.4%, 64.1%);
+$color-tomato-11: hsl(10, 100%, 72.0%);
+$color-tomato-12: hsl(10, 85.0%, 89.0%);
+
+.dark, .dark-theme {
+  --color-tomato-1: #{$color-tomato-1};
+  --color-tomato-2: #{$color-tomato-2};
+  --color-tomato-3: #{$color-tomato-3};
+  --color-tomato-4: #{$color-tomato-4};
+  --color-tomato-5: #{$color-tomato-5};
+  --color-tomato-6: #{$color-tomato-6};
+  --color-tomato-7: #{$color-tomato-7};
+  --color-tomato-8: #{$color-tomato-8};
+  --color-tomato-9: #{$color-tomato-9};
+  --color-tomato-10: #{$color-tomato-10};
+  --color-tomato-11: #{$color-tomato-11};
+  --color-tomato-12: #{$color-tomato-12};
+}

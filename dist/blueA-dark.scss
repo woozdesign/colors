@@ -1,0 +1,27 @@
+$color-blue-a1: hsla(240, 100%, 49.5%, 0.035);
+$color-blue-a2: hsla(227, 100%, 50.0%, 0.091);
+$color-blue-a3: hsla(216, 100%, 50.0%, 0.169);
+$color-blue-a4: hsla(214, 100%, 49.8%, 0.226);
+$color-blue-a5: hsla(213, 99.8%, 50.5%, 0.286);
+$color-blue-a6: hsla(212, 99.8%, 51.5%, 0.377);
+$color-blue-a7: hsla(211, 99.8%, 51.4%, 0.546);
+$color-blue-a8: hsla(211, 99.9%, 53.3%, 0.875);
+$color-blue-a9: hsla(206, 100%, 50.0%, 1);
+$color-blue-a10: hsla(206, 100%, 61.8%, 1);
+$color-blue-a11: hsla(205, 100%, 71.0%, 1);
+$color-blue-a12: hsla(206, 100%, 88.0%, 1);
+
+.dark, .dark-theme {
+  --color-blue-a1: #{$color-blue-a1};
+  --color-blue-a2: #{$color-blue-a2};
+  --color-blue-a3: #{$color-blue-a3};
+  --color-blue-a4: #{$color-blue-a4};
+  --color-blue-a5: #{$color-blue-a5};
+  --color-blue-a6: #{$color-blue-a6};
+  --color-blue-a7: #{$color-blue-a7};
+  --color-blue-a8: #{$color-blue-a8};
+  --color-blue-a9: #{$color-blue-a9};
+  --color-blue-a10: #{$color-blue-a10};
+  --color-blue-a11: #{$color-blue-a11};
+  --color-blue-a12: #{$color-blue-a12};
+}

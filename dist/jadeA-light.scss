@@ -1,0 +1,27 @@
+$color-jade-a1: hsla(160, 94.9%, 38.7%, 0.016);
+$color-jade-a2: hsla(150, 99.1%, 44.0%, 0.063);
+$color-jade-a3: hsla(150, 99.7%, 40.8%, 0.106);
+$color-jade-a4: hsla(151, 99.8%, 36.3%, 0.157);
+$color-jade-a5: hsla(153, 99.4%, 33.5%, 0.224);
+$color-jade-a6: hsla(155, 99.8%, 30.4%, 0.310);
+$color-jade-a7: hsla(159, 99.4%, 28.7%, 0.440);
+$color-jade-a8: hsla(164, 99.9%, 29.6%, 0.663);
+$color-jade-a9: hsla(164, 99.7%, 28.6%, 0.840);
+$color-jade-a10: hsla(164, 100%, 25.9%, 0.855);
+$color-jade-a11: hsla(163, 99.5%, 21.0%, 0.899);
+$color-jade-a12: hsla(160, 98.8%, 6.7%, 0.887);
+
+:root, .light, .light-theme {
+  --color-jade-a1: #{$color-jade-a1};
+  --color-jade-a2: #{$color-jade-a2};
+  --color-jade-a3: #{$color-jade-a3};
+  --color-jade-a4: #{$color-jade-a4};
+  --color-jade-a5: #{$color-jade-a5};
+  --color-jade-a6: #{$color-jade-a6};
+  --color-jade-a7: #{$color-jade-a7};
+  --color-jade-a8: #{$color-jade-a8};
+  --color-jade-a9: #{$color-jade-a9};
+  --color-jade-a10: #{$color-jade-a10};
+  --color-jade-a11: #{$color-jade-a11};
+  --color-jade-a12: #{$color-jade-a12};
+}

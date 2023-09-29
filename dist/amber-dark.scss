@@ -1,0 +1,27 @@
+$color-amber-1: hsl(36, 100%, 6.1%);
+$color-amber-2: hsl(36, 80.5%, 8.0%);
+$color-amber-3: hsl(35, 63.4%, 11.4%);
+$color-amber-4: hsl(34, 58.8%, 14.1%);
+$color-amber-5: hsl(34, 58.1%, 16.7%);
+$color-amber-6: hsl(35, 58.3%, 20.5%);
+$color-amber-7: hsl(35, 59.0%, 27.4%);
+$color-amber-8: hsl(36, 60.2%, 41.4%);
+$color-amber-9: hsl(42, 100%, 62.0%);
+$color-amber-10: hsl(43, 100%, 64.0%);
+$color-amber-11: hsl(43, 100%, 65.0%);
+$color-amber-12: hsl(41, 100%, 85.0%);
+
+.dark, .dark-theme {
+  --color-amber-1: #{$color-amber-1};
+  --color-amber-2: #{$color-amber-2};
+  --color-amber-3: #{$color-amber-3};
+  --color-amber-4: #{$color-amber-4};
+  --color-amber-5: #{$color-amber-5};
+  --color-amber-6: #{$color-amber-6};
+  --color-amber-7: #{$color-amber-7};
+  --color-amber-8: #{$color-amber-8};
+  --color-amber-9: #{$color-amber-9};
+  --color-amber-10: #{$color-amber-10};
+  --color-amber-11: #{$color-amber-11};
+  --color-amber-12: #{$color-amber-12};
+}

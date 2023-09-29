@@ -1,0 +1,27 @@
+$color-cyan-a1: hsla(195, 95.2%, 41.2%, 0.020);
+$color-cyan-a2: hsla(185, 99.9%, 42.3%, 0.051);
+$color-cyan-a3: hsla(186, 97.8%, 42.2%, 0.095);
+$color-cyan-a4: hsla(186, 99.9%, 38.5%, 0.153);
+$color-cyan-a5: hsla(187, 99.3%, 36.6%, 0.232);
+$color-cyan-a6: hsla(188, 99.4%, 35.4%, 0.334);
+$color-cyan-a7: hsla(189, 99.6%, 35.0%, 0.483);
+$color-cyan-a8: hsla(189, 99.9%, 37.6%, 0.761);
+$color-cyan-a9: hsla(190, 99.8%, 37.8%, 0.981);
+$color-cyan-a10: hsla(191, 99.9%, 34.6%, 0.969);
+$color-cyan-a11: hsla(192, 100%, 27.6%, 0.953);
+$color-cyan-a12: hsla(192, 99.2%, 12.3%, 0.950);
+
+:root, .light, .light-theme {
+  --color-cyan-a1: #{$color-cyan-a1};
+  --color-cyan-a2: #{$color-cyan-a2};
+  --color-cyan-a3: #{$color-cyan-a3};
+  --color-cyan-a4: #{$color-cyan-a4};
+  --color-cyan-a5: #{$color-cyan-a5};
+  --color-cyan-a6: #{$color-cyan-a6};
+  --color-cyan-a7: #{$color-cyan-a7};
+  --color-cyan-a8: #{$color-cyan-a8};
+  --color-cyan-a9: #{$color-cyan-a9};
+  --color-cyan-a10: #{$color-cyan-a10};
+  --color-cyan-a11: #{$color-cyan-a11};
+  --color-cyan-a12: #{$color-cyan-a12};
+}

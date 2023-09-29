@@ -1,0 +1,27 @@
+$color-indigo-a1: hsla(240, 92.6%, 26.5%, 0.008);
+$color-indigo-a2: hsla(223, 100%, 51.0%, 0.028);
+$color-indigo-a3: hsla(224, 100%, 50.1%, 0.059);
+$color-indigo-a4: hsla(223, 98.0%, 48.5%, 0.099);
+$color-indigo-a5: hsla(225, 98.6%, 46.4%, 0.150);
+$color-indigo-a6: hsla(224, 99.5%, 44.9%, 0.224);
+$color-indigo-a7: hsla(225, 99.7%, 43.9%, 0.318);
+$color-indigo-a8: hsla(226, 99.5%, 43.1%, 0.448);
+$color-indigo-a9: hsla(226, 100%, 41.2%, 0.757);
+$color-indigo-a10: hsla(226, 99.8%, 37.1%, 0.773);
+$color-indigo-a11: hsla(226, 99.6%, 31.1%, 0.797);
+$color-indigo-a12: hsla(226, 99.5%, 13.7%, 0.879);
+
+:root, .light, .light-theme {
+  --color-indigo-a1: #{$color-indigo-a1};
+  --color-indigo-a2: #{$color-indigo-a2};
+  --color-indigo-a3: #{$color-indigo-a3};
+  --color-indigo-a4: #{$color-indigo-a4};
+  --color-indigo-a5: #{$color-indigo-a5};
+  --color-indigo-a6: #{$color-indigo-a6};
+  --color-indigo-a7: #{$color-indigo-a7};
+  --color-indigo-a8: #{$color-indigo-a8};
+  --color-indigo-a9: #{$color-indigo-a9};
+  --color-indigo-a10: #{$color-indigo-a10};
+  --color-indigo-a11: #{$color-indigo-a11};
+  --color-indigo-a12: #{$color-indigo-a12};
+}

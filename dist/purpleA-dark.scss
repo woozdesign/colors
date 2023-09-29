@@ -1,0 +1,27 @@
+$color-purple-a1: hsla(278, 100%, 49.3%, 0.022);
+$color-purple-a2: hsla(283, 100%, 49.5%, 0.070);
+$color-purple-a3: hsla(282, 98.8%, 59.8%, 0.148);
+$color-purple-a4: hsla(281, 99.0%, 62.4%, 0.200);
+$color-purple-a5: hsla(280, 99.7%, 64.2%, 0.247);
+$color-purple-a6: hsla(278, 99.2%, 65.7%, 0.317);
+$color-purple-a7: hsla(276, 99.7%, 67.5%, 0.442);
+$color-purple-a8: hsla(272, 100%, 68.8%, 0.684);
+$color-purple-a9: hsla(272, 99.7%, 68.7%, 0.754);
+$color-purple-a10: hsla(271, 99.7%, 72.6%, 0.819);
+$color-purple-a11: hsla(270, 99.6%, 79.6%, 0.975);
+$color-purple-a12: hsla(275, 99.1%, 93.3%, 0.979);
+
+.dark, .dark-theme {
+  --color-purple-a1: #{$color-purple-a1};
+  --color-purple-a2: #{$color-purple-a2};
+  --color-purple-a3: #{$color-purple-a3};
+  --color-purple-a4: #{$color-purple-a4};
+  --color-purple-a5: #{$color-purple-a5};
+  --color-purple-a6: #{$color-purple-a6};
+  --color-purple-a7: #{$color-purple-a7};
+  --color-purple-a8: #{$color-purple-a8};
+  --color-purple-a9: #{$color-purple-a9};
+  --color-purple-a10: #{$color-purple-a10};
+  --color-purple-a11: #{$color-purple-a11};
+  --color-purple-a12: #{$color-purple-a12};
+}

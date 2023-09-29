@@ -1,0 +1,27 @@
+$color-sky-a1: hsla(234, 100%, 49.5%, 0.035);
+$color-sky-a2: hsla(215, 100%, 49.7%, 0.061);
+$color-sky-a3: hsla(204, 100%, 50.0%, 0.117);
+$color-sky-a4: hsla(201, 100%, 49.8%, 0.161);
+$color-sky-a5: hsla(202, 99.8%, 52.8%, 0.208);
+$color-sky-a6: hsla(200, 99.3%, 56.0%, 0.278);
+$color-sky-a7: hsla(200, 99.8%, 58.6%, 0.403);
+$color-sky-a8: hsla(200, 99.8%, 60.8%, 0.676);
+$color-sky-a9: hsla(193, 99.9%, 74.4%, 0.996);
+$color-sky-a10: hsla(192, 100%, 77.1%, 1);
+$color-sky-a11: hsla(195, 100%, 66.1%, 1);
+$color-sky-a12: hsla(192, 100%, 88.0%, 1);
+
+.dark, .dark-theme {
+  --color-sky-a1: #{$color-sky-a1};
+  --color-sky-a2: #{$color-sky-a2};
+  --color-sky-a3: #{$color-sky-a3};
+  --color-sky-a4: #{$color-sky-a4};
+  --color-sky-a5: #{$color-sky-a5};
+  --color-sky-a6: #{$color-sky-a6};
+  --color-sky-a7: #{$color-sky-a7};
+  --color-sky-a8: #{$color-sky-a8};
+  --color-sky-a9: #{$color-sky-a9};
+  --color-sky-a10: #{$color-sky-a10};
+  --color-sky-a11: #{$color-sky-a11};
+  --color-sky-a12: #{$color-sky-a12};
+}

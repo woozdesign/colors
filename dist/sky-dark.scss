@@ -1,0 +1,27 @@
+$color-sky-1: hsl(205, 45.0%, 8.6%);
+$color-sky-2: hsl(202, 49.0%, 10.0%);
+$color-sky-3: hsl(201, 50.8%, 13.2%);
+$color-sky-4: hsl(201, 52.1%, 15.8%);
+$color-sky-5: hsl(201, 53.3%, 18.4%);
+$color-sky-6: hsl(200, 54.9%, 22.2%);
+$color-sky-7: hsl(200, 57.2%, 29.3%);
+$color-sky-8: hsl(200, 60.0%, 44.1%);
+$color-sky-9: hsl(193, 98.0%, 74.0%);
+$color-sky-10: hsl(192, 100%, 77.0%);
+$color-sky-11: hsl(195, 100%, 66.0%);
+$color-sky-12: hsl(192, 100%, 88.0%);
+
+.dark, .dark-theme {
+  --color-sky-1: #{$color-sky-1};
+  --color-sky-2: #{$color-sky-2};
+  --color-sky-3: #{$color-sky-3};
+  --color-sky-4: #{$color-sky-4};
+  --color-sky-5: #{$color-sky-5};
+  --color-sky-6: #{$color-sky-6};
+  --color-sky-7: #{$color-sky-7};
+  --color-sky-8: #{$color-sky-8};
+  --color-sky-9: #{$color-sky-9};
+  --color-sky-10: #{$color-sky-10};
+  --color-sky-11: #{$color-sky-11};
+  --color-sky-12: #{$color-sky-12};
+}

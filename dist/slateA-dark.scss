@@ -1,0 +1,27 @@
+$color-slate-a1: hsla(240, 92.7%, 53.0%, 0.009);
+$color-slate-a2: hsla(240, 92.5%, 72.7%, 0.031);
+$color-slate-a3: hsla(230, 99.3%, 87.0%, 0.091);
+$color-slate-a4: hsla(223, 97.1%, 88.8%, 0.126);
+$color-slate-a5: hsla(223, 99.0%, 91.1%, 0.156);
+$color-slate-a6: hsla(218, 97.1%, 91.5%, 0.191);
+$color-slate-a7: hsla(210, 97.4%, 91.7%, 0.243);
+$color-slate-a8: hsla(202, 97.3%, 93.4%, 0.334);
+$color-slate-a9: hsla(219, 97.6%, 93.2%, 0.412);
+$color-slate-a10: hsla(217, 98.3%, 94.7%, 0.494);
+$color-slate-a11: hsla(218, 98.5%, 96.8%, 0.693);
+$color-slate-a12: hsla(220, 87.4%, 99.3%, 0.936);
+
+.dark, .dark-theme {
+  --color-slate-a1: #{$color-slate-a1};
+  --color-slate-a2: #{$color-slate-a2};
+  --color-slate-a3: #{$color-slate-a3};
+  --color-slate-a4: #{$color-slate-a4};
+  --color-slate-a5: #{$color-slate-a5};
+  --color-slate-a6: #{$color-slate-a6};
+  --color-slate-a7: #{$color-slate-a7};
+  --color-slate-a8: #{$color-slate-a8};
+  --color-slate-a9: #{$color-slate-a9};
+  --color-slate-a10: #{$color-slate-a10};
+  --color-slate-a11: #{$color-slate-a11};
+  --color-slate-a12: #{$color-slate-a12};
+}

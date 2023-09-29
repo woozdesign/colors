@@ -1,0 +1,27 @@
+$color-teal-a1: hsla(120, 100%, 48.3%, 0.009);
+$color-teal-a2: hsla(141, 100%, 49.0%, 0.031);
+$color-teal-a3: hsla(161, 100%, 49.8%, 0.074);
+$color-teal-a4: hsla(167, 100%, 49.7%, 0.109);
+$color-teal-a5: hsla(167, 100%, 49.8%, 0.148);
+$color-teal-a6: hsla(169, 99.2%, 52.5%, 0.200);
+$color-teal-a7: hsla(171, 99.3%, 56.5%, 0.304);
+$color-teal-a8: hsla(173, 99.9%, 59.0%, 0.498);
+$color-teal-a9: hsla(173, 99.8%, 52.7%, 0.611);
+$color-teal-a10: hsla(172, 99.9%, 50.8%, 0.706);
+$color-teal-a11: hsla(170, 99.8%, 51.6%, 0.832);
+$color-teal-a12: hsla(163, 99.4%, 85.9%, 0.936);
+
+.dark, .dark-theme {
+  --color-teal-a1: #{$color-teal-a1};
+  --color-teal-a2: #{$color-teal-a2};
+  --color-teal-a3: #{$color-teal-a3};
+  --color-teal-a4: #{$color-teal-a4};
+  --color-teal-a5: #{$color-teal-a5};
+  --color-teal-a6: #{$color-teal-a6};
+  --color-teal-a7: #{$color-teal-a7};
+  --color-teal-a8: #{$color-teal-a8};
+  --color-teal-a9: #{$color-teal-a9};
+  --color-teal-a10: #{$color-teal-a10};
+  --color-teal-a11: #{$color-teal-a11};
+  --color-teal-a12: #{$color-teal-a12};
+}

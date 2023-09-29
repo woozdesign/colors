@@ -1,0 +1,27 @@
+$color-sage-a1: hsla(126, 100%, 43.9%, 0.005);
+$color-sage-a2: hsla(150, 92.7%, 53.0%, 0.018);
+$color-sage-a3: hsla(150, 95.5%, 88.9%, 0.074);
+$color-sage-a4: hsla(156, 93.3%, 90.4%, 0.109);
+$color-sage-a5: hsla(150, 94.8%, 94.0%, 0.139);
+$color-sage-a6: hsla(156, 92.8%, 93.9%, 0.174);
+$color-sage-a7: hsla(156, 92.4%, 95.3%, 0.226);
+$color-sage-a8: hsla(156, 91.7%, 96.6%, 0.317);
+$color-sage-a9: hsla(157, 99.8%, 93.3%, 0.381);
+$color-sage-a10: hsla(158, 96.8%, 95.2%, 0.464);
+$color-sage-a11: hsla(158, 98.1%, 97.6%, 0.667);
+$color-sage-a12: hsla(150, 88.0%, 99.5%, 0.927);
+
+.dark, .dark-theme {
+  --color-sage-a1: #{$color-sage-a1};
+  --color-sage-a2: #{$color-sage-a2};
+  --color-sage-a3: #{$color-sage-a3};
+  --color-sage-a4: #{$color-sage-a4};
+  --color-sage-a5: #{$color-sage-a5};
+  --color-sage-a6: #{$color-sage-a6};
+  --color-sage-a7: #{$color-sage-a7};
+  --color-sage-a8: #{$color-sage-a8};
+  --color-sage-a9: #{$color-sage-a9};
+  --color-sage-a10: #{$color-sage-a10};
+  --color-sage-a11: #{$color-sage-a11};
+  --color-sage-a12: #{$color-sage-a12};
+}

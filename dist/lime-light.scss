@@ -1,0 +1,27 @@
+$color-lime-1: hsl(85, 50.0%, 98.7%);
+$color-lime-2: hsl(85, 66.7%, 96.5%);
+$color-lime-3: hsl(85, 76.8%, 91.7%);
+$color-lime-4: hsl(84, 71.6%, 86.6%);
+$color-lime-5: hsl(83, 62.5%, 80.8%);
+$color-lime-6: hsl(81, 51.6%, 73.6%);
+$color-lime-7: hsl(79, 41.5%, 64.4%);
+$color-lime-8: hsl(77, 40.2%, 52.2%);
+$color-lime-9: hsl(81, 80.0%, 66.0%);
+$color-lime-10: hsl(81, 75.0%, 60.0%);
+$color-lime-11: hsl(75, 40.0%, 29.0%);
+$color-lime-12: hsl(75, 40.0%, 18.0%);
+
+:root, .light, .light-theme {
+  --color-lime-1: #{$color-lime-1};
+  --color-lime-2: #{$color-lime-2};
+  --color-lime-3: #{$color-lime-3};
+  --color-lime-4: #{$color-lime-4};
+  --color-lime-5: #{$color-lime-5};
+  --color-lime-6: #{$color-lime-6};
+  --color-lime-7: #{$color-lime-7};
+  --color-lime-8: #{$color-lime-8};
+  --color-lime-9: #{$color-lime-9};
+  --color-lime-10: #{$color-lime-10};
+  --color-lime-11: #{$color-lime-11};
+  --color-lime-12: #{$color-lime-12};
+}

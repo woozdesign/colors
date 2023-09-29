@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run build",
+    "postpublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "git clean -fdX",
     "build": "tsc && npm run build-scss-modules",
     "build-scss-modules": "node ./scripts/build-scss-module.ts"
   },
+  "files": [
+    "index.js",
+    "dist"
+  ],
   "keywords": [],
   "author": "Leo Kim <kim.kw8012@gmail.com> (http://woozlabs.com/)",
   "license": "MIT",

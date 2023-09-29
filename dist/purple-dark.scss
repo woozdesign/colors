@@ -1,0 +1,27 @@
+$color-purple-1: hsl(284, 20.0%, 9.6%);
+$color-purple-2: hsl(284, 31.1%, 12.0%);
+$color-purple-3: hsl(282, 35.1%, 16.8%);
+$color-purple-4: hsl(281, 36.9%, 20.1%);
+$color-purple-5: hsl(280, 38.1%, 23.0%);
+$color-purple-6: hsl(278, 39.5%, 27.3%);
+$color-purple-7: hsl(276, 41.1%, 35.1%);
+$color-purple-8: hsl(272, 42.7%, 50.0%);
+$color-purple-9: hsl(272, 51.0%, 54.0%);
+$color-purple-10: hsl(271, 57.8%, 61.2%);
+$color-purple-11: hsl(270, 90.0%, 78.0%);
+$color-purple-12: hsl(275, 75.0%, 91.5%);
+
+.dark, .dark-theme {
+  --color-purple-1: #{$color-purple-1};
+  --color-purple-2: #{$color-purple-2};
+  --color-purple-3: #{$color-purple-3};
+  --color-purple-4: #{$color-purple-4};
+  --color-purple-5: #{$color-purple-5};
+  --color-purple-6: #{$color-purple-6};
+  --color-purple-7: #{$color-purple-7};
+  --color-purple-8: #{$color-purple-8};
+  --color-purple-9: #{$color-purple-9};
+  --color-purple-10: #{$color-purple-10};
+  --color-purple-11: #{$color-purple-11};
+  --color-purple-12: #{$color-purple-12};
+}

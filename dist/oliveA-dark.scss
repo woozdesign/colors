@@ -1,0 +1,27 @@
+$color-olive-a1: hsla(120, 100%, 43.9%, 0.005);
+$color-olive-a2: hsla(120, 90.5%, 63.9%, 0.018);
+$color-olive-a3: hsla(120, 94.1%, 91.6%, 0.074);
+$color-olive-a4: hsla(120, 91.8%, 92.2%, 0.109);
+$color-olive-a5: hsla(120, 94.8%, 94.0%, 0.139);
+$color-olive-a6: hsla(120, 91.2%, 95.1%, 0.174);
+$color-olive-a7: hsla(120, 97.5%, 96.4%, 0.221);
+$color-olive-a8: hsla(120, 91.7%, 96.6%, 0.317);
+$color-olive-a9: hsla(106, 99.8%, 93.3%, 0.381);
+$color-olive-a10: hsla(104, 96.8%, 95.2%, 0.464);
+$color-olive-a11: hsla(105, 100%, 97.7%, 0.671);
+$color-olive-a12: hsla(120, 88.0%, 99.5%, 0.927);
+
+.dark, .dark-theme {
+  --color-olive-a1: #{$color-olive-a1};
+  --color-olive-a2: #{$color-olive-a2};
+  --color-olive-a3: #{$color-olive-a3};
+  --color-olive-a4: #{$color-olive-a4};
+  --color-olive-a5: #{$color-olive-a5};
+  --color-olive-a6: #{$color-olive-a6};
+  --color-olive-a7: #{$color-olive-a7};
+  --color-olive-a8: #{$color-olive-a8};
+  --color-olive-a9: #{$color-olive-a9};
+  --color-olive-a10: #{$color-olive-a10};
+  --color-olive-a11: #{$color-olive-a11};
+  --color-olive-a12: #{$color-olive-a12};
+}

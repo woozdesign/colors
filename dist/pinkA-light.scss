@@ -1,0 +1,27 @@
+$color-pink-a1: hsla(320, 100%, 51.0%, 0.012);
+$color-pink-a2: hsla(323, 100%, 51.0%, 0.032);
+$color-pink-a3: hsla(323, 98.9%, 47.3%, 0.067);
+$color-pink-a4: hsla(323, 99.9%, 44.3%, 0.102);
+$color-pink-a5: hsla(324, 99.9%, 42.3%, 0.153);
+$color-pink-a6: hsla(323, 99.5%, 39.6%, 0.224);
+$color-pink-a7: hsla(323, 99.7%, 38.5%, 0.322);
+$color-pink-a8: hsla(323, 99.5%, 37.7%, 0.444);
+$color-pink-a9: hsla(322, 99.7%, 39.3%, 0.750);
+$color-pink-a10: hsla(322, 99.9%, 37.9%, 0.812);
+$color-pink-a11: hsla(322, 99.8%, 37.1%, 0.891);
+$color-pink-a12: hsla(320, 99.6%, 17.6%, 0.930);
+
+:root, .light, .light-theme {
+  --color-pink-a1: #{$color-pink-a1};
+  --color-pink-a2: #{$color-pink-a2};
+  --color-pink-a3: #{$color-pink-a3};
+  --color-pink-a4: #{$color-pink-a4};
+  --color-pink-a5: #{$color-pink-a5};
+  --color-pink-a6: #{$color-pink-a6};
+  --color-pink-a7: #{$color-pink-a7};
+  --color-pink-a8: #{$color-pink-a8};
+  --color-pink-a9: #{$color-pink-a9};
+  --color-pink-a10: #{$color-pink-a10};
+  --color-pink-a11: #{$color-pink-a11};
+  --color-pink-a12: #{$color-pink-a12};
+}

@@ -1,0 +1,27 @@
+$color-sage-1: hsl(155, 30.0%, 98.8%);
+$color-sage-2: hsl(150, 14.3%, 97.3%);
+$color-sage-3: hsl(150, 8.0%, 94.5%);
+$color-sage-4: hsl(150, 6.0%, 92.0%);
+$color-sage-5: hsl(150, 4.9%, 89.5%);
+$color-sage-6: hsl(150, 4.3%, 86.7%);
+$color-sage-7: hsl(150, 3.7%, 82.8%);
+$color-sage-8: hsl(150, 2.9%, 72.9%);
+$color-sage-9: hsl(155, 3.5%, 54.2%);
+$color-sage-10: hsl(158, 2.9%, 49.3%);
+$color-sage-11: hsl(155, 3.0%, 38.5%);
+$color-sage-12: hsl(155, 12.0%, 11.5%);
+
+:root, .light, .light-theme {
+  --color-sage-1: #{$color-sage-1};
+  --color-sage-2: #{$color-sage-2};
+  --color-sage-3: #{$color-sage-3};
+  --color-sage-4: #{$color-sage-4};
+  --color-sage-5: #{$color-sage-5};
+  --color-sage-6: #{$color-sage-6};
+  --color-sage-7: #{$color-sage-7};
+  --color-sage-8: #{$color-sage-8};
+  --color-sage-9: #{$color-sage-9};
+  --color-sage-10: #{$color-sage-10};
+  --color-sage-11: #{$color-sage-11};
+  --color-sage-12: #{$color-sage-12};
+}
