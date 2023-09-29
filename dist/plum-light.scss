@@ -1,0 +1,27 @@
+$color-plum-1: hsl(292, 90.0%, 99.4%);
+$color-plum-2: hsl(300, 100%, 98.6%);
+$color-plum-3: hsl(299, 71.2%, 96.4%);
+$color-plum-4: hsl(299, 62.0%, 93.8%);
+$color-plum-5: hsl(298, 56.1%, 90.5%);
+$color-plum-6: hsl(296, 51.3%, 85.8%);
+$color-plum-7: hsl(295, 48.2%, 78.9%);
+$color-plum-8: hsl(292, 47.7%, 70.8%);
+$color-plum-9: hsl(292, 45.0%, 51.0%);
+$color-plum-10: hsl(292, 50.2%, 46.9%);
+$color-plum-11: hsl(292, 60.0%, 42.5%);
+$color-plum-12: hsl(291, 57.0%, 23.2%);
+
+:root, .light, .light-theme {
+  --color-plum-1: #{$color-plum-1};
+  --color-plum-2: #{$color-plum-2};
+  --color-plum-3: #{$color-plum-3};
+  --color-plum-4: #{$color-plum-4};
+  --color-plum-5: #{$color-plum-5};
+  --color-plum-6: #{$color-plum-6};
+  --color-plum-7: #{$color-plum-7};
+  --color-plum-8: #{$color-plum-8};
+  --color-plum-9: #{$color-plum-9};
+  --color-plum-10: #{$color-plum-10};
+  --color-plum-11: #{$color-plum-11};
+  --color-plum-12: #{$color-plum-12};
+}

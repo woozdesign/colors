@@ -1,0 +1,27 @@
+$color-slate-1: hsl(240, 22.0%, 99.0%);
+$color-slate-2: hsl(240, 20.0%, 98.0%);
+$color-slate-3: hsl(239, 13.4%, 95.4%);
+$color-slate-4: hsl(238, 11.8%, 92.9%);
+$color-slate-5: hsl(237, 11.1%, 90.5%);
+$color-slate-6: hsl(236, 10.6%, 87.9%);
+$color-slate-7: hsl(234, 10.4%, 84.4%);
+$color-slate-8: hsl(231, 10.2%, 75.1%);
+$color-slate-9: hsl(230, 6.0%, 57.0%);
+$color-slate-10: hsl(227, 5.2%, 51.8%);
+$color-slate-11: hsl(220, 6.0%, 40.0%);
+$color-slate-12: hsl(210, 12.0%, 12.5%);
+
+:root, .light, .light-theme {
+  --color-slate-1: #{$color-slate-1};
+  --color-slate-2: #{$color-slate-2};
+  --color-slate-3: #{$color-slate-3};
+  --color-slate-4: #{$color-slate-4};
+  --color-slate-5: #{$color-slate-5};
+  --color-slate-6: #{$color-slate-6};
+  --color-slate-7: #{$color-slate-7};
+  --color-slate-8: #{$color-slate-8};
+  --color-slate-9: #{$color-slate-9};
+  --color-slate-10: #{$color-slate-10};
+  --color-slate-11: #{$color-slate-11};
+  --color-slate-12: #{$color-slate-12};
+}

@@ -1,0 +1,27 @@
+$color-brown-a1: hsla(0, 100%, 48.3%, 0.009);
+$color-brown-a2: hsla(24, 100%, 50.0%, 0.026);
+$color-brown-a3: hsla(25, 98.5%, 67.7%, 0.074);
+$color-brown-a4: hsla(26, 97.8%, 70.6%, 0.109);
+$color-brown-a5: hsla(26, 98.9%, 72.6%, 0.152);
+$color-brown-a6: hsla(27, 99.6%, 74.5%, 0.208);
+$color-brown-a7: hsla(28, 98.8%, 75.6%, 0.317);
+$color-brown-a8: hsla(28, 99.6%, 76.4%, 0.533);
+$color-brown-a9: hsla(28, 99.5%, 74.1%, 0.646);
+$color-brown-a10: hsla(28, 99.6%, 77.7%, 0.715);
+$color-brown-a11: hsla(28, 99.5%, 83.4%, 0.845);
+$color-brown-a12: hsla(34, 99.7%, 91.7%, 0.944);
+
+.dark, .dark-theme {
+  --color-brown-a1: #{$color-brown-a1};
+  --color-brown-a2: #{$color-brown-a2};
+  --color-brown-a3: #{$color-brown-a3};
+  --color-brown-a4: #{$color-brown-a4};
+  --color-brown-a5: #{$color-brown-a5};
+  --color-brown-a6: #{$color-brown-a6};
+  --color-brown-a7: #{$color-brown-a7};
+  --color-brown-a8: #{$color-brown-a8};
+  --color-brown-a9: #{$color-brown-a9};
+  --color-brown-a10: #{$color-brown-a10};
+  --color-brown-a11: #{$color-brown-a11};
+  --color-brown-a12: #{$color-brown-a12};
+}

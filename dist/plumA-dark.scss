@@ -1,0 +1,27 @@
+$color-plum-a1: hsla(300, 100%, 49.3%, 0.022);
+$color-plum-a2: hsla(300, 100%, 49.7%, 0.061);
+$color-plum-a3: hsla(300, 98.6%, 59.2%, 0.122);
+$color-plum-a4: hsla(298, 99.3%, 62.9%, 0.165);
+$color-plum-a5: hsla(297, 99.7%, 65.0%, 0.208);
+$color-plum-a6: hsla(296, 99.7%, 66.9%, 0.273);
+$color-plum-a7: hsla(295, 100%, 68.6%, 0.394);
+$color-plum-a8: hsla(292, 99.7%, 69.7%, 0.637);
+$color-plum-a9: hsla(292, 99.7%, 68.6%, 0.702);
+$color-plum-a10: hsla(291, 99.8%, 74.2%, 0.784);
+$color-plum-a11: hsla(290, 99.7%, 80.0%, 0.914);
+$color-plum-a12: hsla(300, 99.1%, 93.4%, 0.953);
+
+.dark, .dark-theme {
+  --color-plum-a1: #{$color-plum-a1};
+  --color-plum-a2: #{$color-plum-a2};
+  --color-plum-a3: #{$color-plum-a3};
+  --color-plum-a4: #{$color-plum-a4};
+  --color-plum-a5: #{$color-plum-a5};
+  --color-plum-a6: #{$color-plum-a6};
+  --color-plum-a7: #{$color-plum-a7};
+  --color-plum-a8: #{$color-plum-a8};
+  --color-plum-a9: #{$color-plum-a9};
+  --color-plum-a10: #{$color-plum-a10};
+  --color-plum-a11: #{$color-plum-a11};
+  --color-plum-a12: #{$color-plum-a12};
+}

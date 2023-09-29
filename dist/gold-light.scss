@@ -1,0 +1,27 @@
+$color-gold-1: hsl(50, 20.0%, 99.1%);
+$color-gold-2: hsl(47, 52.9%, 96.7%);
+$color-gold-3: hsl(46, 38.2%, 93.7%);
+$color-gold-4: hsl(44, 32.7%, 90.1%);
+$color-gold-5: hsl(43, 29.9%, 85.7%);
+$color-gold-6: hsl(41, 28.3%, 79.8%);
+$color-gold-7: hsl(39, 27.6%, 71.9%);
+$color-gold-8: hsl(36, 27.2%, 61.8%);
+$color-gold-9: hsl(36, 20.0%, 49.5%);
+$color-gold-10: hsl(36, 19.9%, 44.9%);
+$color-gold-11: hsl(36, 20.0%, 37.0%);
+$color-gold-12: hsl(36, 16.0%, 20.0%);
+
+:root, .light, .light-theme {
+  --color-gold-1: #{$color-gold-1};
+  --color-gold-2: #{$color-gold-2};
+  --color-gold-3: #{$color-gold-3};
+  --color-gold-4: #{$color-gold-4};
+  --color-gold-5: #{$color-gold-5};
+  --color-gold-6: #{$color-gold-6};
+  --color-gold-7: #{$color-gold-7};
+  --color-gold-8: #{$color-gold-8};
+  --color-gold-9: #{$color-gold-9};
+  --color-gold-10: #{$color-gold-10};
+  --color-gold-11: #{$color-gold-11};
+  --color-gold-12: #{$color-gold-12};
+}

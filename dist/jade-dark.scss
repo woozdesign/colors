@@ -1,0 +1,27 @@
+$color-jade-1: hsl(152, 53.0%, 6.5%);
+$color-jade-2: hsl(153, 47.6%, 8.2%);
+$color-jade-3: hsl(154, 46.7%, 11.0%);
+$color-jade-4: hsl(155, 47.0%, 13.2%);
+$color-jade-5: hsl(156, 47.7%, 15.3%);
+$color-jade-6: hsl(158, 49.0%, 18.5%);
+$color-jade-7: hsl(160, 52.0%, 24.2%);
+$color-jade-8: hsl(164, 59.8%, 34.1%);
+$color-jade-9: hsl(164, 60.0%, 40.0%);
+$color-jade-10: hsl(164, 66.8%, 43.7%);
+$color-jade-11: hsl(163, 75.0%, 48.4%);
+$color-jade-12: hsl(155, 70.0%, 81.0%);
+
+.dark, .dark-theme {
+  --color-jade-1: #{$color-jade-1};
+  --color-jade-2: #{$color-jade-2};
+  --color-jade-3: #{$color-jade-3};
+  --color-jade-4: #{$color-jade-4};
+  --color-jade-5: #{$color-jade-5};
+  --color-jade-6: #{$color-jade-6};
+  --color-jade-7: #{$color-jade-7};
+  --color-jade-8: #{$color-jade-8};
+  --color-jade-9: #{$color-jade-9};
+  --color-jade-10: #{$color-jade-10};
+  --color-jade-11: #{$color-jade-11};
+  --color-jade-12: #{$color-jade-12};
+}

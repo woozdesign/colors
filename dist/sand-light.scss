@@ -1,0 +1,27 @@
+$color-sand-1: hsl(50, 20.0%, 99.0%);
+$color-sand-2: hsl(60, 7.7%, 97.5%);
+$color-sand-3: hsl(59, 5.8%, 94.5%);
+$color-sand-4: hsl(58, 5.3%, 91.8%);
+$color-sand-5: hsl(57, 5.1%, 89.0%);
+$color-sand-6: hsl(56, 5.0%, 86.0%);
+$color-sand-7: hsl(54, 4.9%, 81.8%);
+$color-sand-8: hsl(51, 5.0%, 72.4%);
+$color-sand-9: hsl(60, 3.0%, 53.9%);
+$color-sand-10: hsl(60, 2.6%, 49.0%);
+$color-sand-11: hsl(50, 2.5%, 38.0%);
+$color-sand-12: hsl(50, 8.0%, 12.0%);
+
+:root, .light, .light-theme {
+  --color-sand-1: #{$color-sand-1};
+  --color-sand-2: #{$color-sand-2};
+  --color-sand-3: #{$color-sand-3};
+  --color-sand-4: #{$color-sand-4};
+  --color-sand-5: #{$color-sand-5};
+  --color-sand-6: #{$color-sand-6};
+  --color-sand-7: #{$color-sand-7};
+  --color-sand-8: #{$color-sand-8};
+  --color-sand-9: #{$color-sand-9};
+  --color-sand-10: #{$color-sand-10};
+  --color-sand-11: #{$color-sand-11};
+  --color-sand-12: #{$color-sand-12};
+}

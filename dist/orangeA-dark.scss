@@ -1,0 +1,27 @@
+$color-orange-a1: hsla(0, 100%, 49.0%, 0.031);
+$color-orange-a2: hsla(0, 100%, 50.0%, 0.065);
+$color-orange-a3: hsla(13, 100%, 49.7%, 0.122);
+$color-orange-a4: hsla(20, 100%, 50.0%, 0.169);
+$color-orange-a5: hsla(24, 100%, 50.0%, 0.221);
+$color-orange-a6: hsla(25, 99.8%, 51.4%, 0.299);
+$color-orange-a7: hsla(25, 99.8%, 54.7%, 0.442);
+$color-orange-a8: hsla(25, 99.8%, 57.3%, 0.741);
+$color-orange-a9: hsla(24, 99.9%, 51.4%, 0.966);
+$color-orange-a10: hsla(24, 100%, 58.4%, 1);
+$color-orange-a11: hsla(24, 100%, 70.0%, 1);
+$color-orange-a12: hsla(30, 100%, 88.0%, 1);
+
+.dark, .dark-theme {
+  --color-orange-a1: #{$color-orange-a1};
+  --color-orange-a2: #{$color-orange-a2};
+  --color-orange-a3: #{$color-orange-a3};
+  --color-orange-a4: #{$color-orange-a4};
+  --color-orange-a5: #{$color-orange-a5};
+  --color-orange-a6: #{$color-orange-a6};
+  --color-orange-a7: #{$color-orange-a7};
+  --color-orange-a8: #{$color-orange-a8};
+  --color-orange-a9: #{$color-orange-a9};
+  --color-orange-a10: #{$color-orange-a10};
+  --color-orange-a11: #{$color-orange-a11};
+  --color-orange-a12: #{$color-orange-a12};
+}

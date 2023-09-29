@@ -1,0 +1,27 @@
+$color-gray-1: hsl(0, 0%, 9.5%);
+$color-gray-2: hsl(0, 0%, 10.5%);
+$color-gray-3: hsl(0, 0%, 15.8%);
+$color-gray-4: hsl(0, 0%, 18.9%);
+$color-gray-5: hsl(0, 0%, 21.7%);
+$color-gray-6: hsl(0, 0%, 24.7%);
+$color-gray-7: hsl(0, 0%, 29.1%);
+$color-gray-8: hsl(0, 0%, 37.5%);
+$color-gray-9: hsl(0, 0%, 43.0%);
+$color-gray-10: hsl(0, 0%, 50.7%);
+$color-gray-11: hsl(0, 0%, 69.5%);
+$color-gray-12: hsl(0, 0%, 93.5%);
+
+.dark, .dark-theme {
+  --color-gray-1: #{$color-gray-1};
+  --color-gray-2: #{$color-gray-2};
+  --color-gray-3: #{$color-gray-3};
+  --color-gray-4: #{$color-gray-4};
+  --color-gray-5: #{$color-gray-5};
+  --color-gray-6: #{$color-gray-6};
+  --color-gray-7: #{$color-gray-7};
+  --color-gray-8: #{$color-gray-8};
+  --color-gray-9: #{$color-gray-9};
+  --color-gray-10: #{$color-gray-10};
+  --color-gray-11: #{$color-gray-11};
+  --color-gray-12: #{$color-gray-12};
+}

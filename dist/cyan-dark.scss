@@ -1,0 +1,27 @@
+$color-cyan-1: hsl(192, 60.0%, 7.2%);
+$color-cyan-2: hsl(193, 51.1%, 8.8%);
+$color-cyan-3: hsl(193, 51.9%, 11.9%);
+$color-cyan-4: hsl(193, 52.6%, 14.1%);
+$color-cyan-5: hsl(193, 53.4%, 16.5%);
+$color-cyan-6: hsl(192, 54.6%, 20.1%);
+$color-cyan-7: hsl(192, 56.6%, 26.5%);
+$color-cyan-8: hsl(192, 59.8%, 39.0%);
+$color-cyan-9: hsl(190, 95.0%, 39.0%);
+$color-cyan-10: hsl(190, 84.0%, 46.0%);
+$color-cyan-11: hsl(190, 90.0%, 54.0%);
+$color-cyan-12: hsl(190, 80.0%, 84.0%);
+
+.dark, .dark-theme {
+  --color-cyan-1: #{$color-cyan-1};
+  --color-cyan-2: #{$color-cyan-2};
+  --color-cyan-3: #{$color-cyan-3};
+  --color-cyan-4: #{$color-cyan-4};
+  --color-cyan-5: #{$color-cyan-5};
+  --color-cyan-6: #{$color-cyan-6};
+  --color-cyan-7: #{$color-cyan-7};
+  --color-cyan-8: #{$color-cyan-8};
+  --color-cyan-9: #{$color-cyan-9};
+  --color-cyan-10: #{$color-cyan-10};
+  --color-cyan-11: #{$color-cyan-11};
+  --color-cyan-12: #{$color-cyan-12};
+}

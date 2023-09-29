@@ -1,0 +1,27 @@
+$color-amber-a1: hsla(0, 100%, 49.0%, 0.031);
+$color-amber-a2: hsla(6, 100%, 49.4%, 0.057);
+$color-amber-a3: hsla(24, 100%, 50.0%, 0.104);
+$color-amber-a4: hsla(30, 100%, 50.0%, 0.143);
+$color-amber-a5: hsla(33, 100%, 49.8%, 0.187);
+$color-amber-a6: hsla(34, 99.6%, 53.1%, 0.256);
+$color-amber-a7: hsla(35, 99.8%, 57.3%, 0.377);
+$color-amber-a8: hsla(36, 99.9%, 60.3%, 0.628);
+$color-amber-a9: hsla(42, 100%, 62.0%, 1);
+$color-amber-a10: hsla(43, 100%, 63.9%, 1);
+$color-amber-a11: hsla(43, 100%, 65.1%, 1);
+$color-amber-a12: hsla(41, 100%, 85.1%, 1);
+
+.dark, .dark-theme {
+  --color-amber-a1: #{$color-amber-a1};
+  --color-amber-a2: #{$color-amber-a2};
+  --color-amber-a3: #{$color-amber-a3};
+  --color-amber-a4: #{$color-amber-a4};
+  --color-amber-a5: #{$color-amber-a5};
+  --color-amber-a6: #{$color-amber-a6};
+  --color-amber-a7: #{$color-amber-a7};
+  --color-amber-a8: #{$color-amber-a8};
+  --color-amber-a9: #{$color-amber-a9};
+  --color-amber-a10: #{$color-amber-a10};
+  --color-amber-a11: #{$color-amber-a11};
+  --color-amber-a12: #{$color-amber-a12};
+}

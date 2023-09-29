@@ -1,0 +1,27 @@
+$color-blue-1: hsl(212, 35.0%, 9.2%);
+$color-blue-2: hsl(216, 50.0%, 11.8%);
+$color-blue-3: hsl(214, 57.6%, 15.6%);
+$color-blue-4: hsl(214, 62.3%, 18.4%);
+$color-blue-5: hsl(213, 66.6%, 21.1%);
+$color-blue-6: hsl(212, 72.6%, 25.2%);
+$color-blue-7: hsl(211, 81.3%, 32.4%);
+$color-blue-8: hsl(211, 85.2%, 47.8%);
+$color-blue-9: hsl(206, 100%, 50.0%);
+$color-blue-10: hsl(206, 100%, 61.8%);
+$color-blue-11: hsl(205, 100%, 71.0%);
+$color-blue-12: hsl(205, 100%, 88.0%);
+
+.dark, .dark-theme {
+  --color-blue-1: #{$color-blue-1};
+  --color-blue-2: #{$color-blue-2};
+  --color-blue-3: #{$color-blue-3};
+  --color-blue-4: #{$color-blue-4};
+  --color-blue-5: #{$color-blue-5};
+  --color-blue-6: #{$color-blue-6};
+  --color-blue-7: #{$color-blue-7};
+  --color-blue-8: #{$color-blue-8};
+  --color-blue-9: #{$color-blue-9};
+  --color-blue-10: #{$color-blue-10};
+  --color-blue-11: #{$color-blue-11};
+  --color-blue-12: #{$color-blue-12};
+}

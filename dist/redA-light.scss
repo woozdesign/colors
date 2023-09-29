@@ -1,0 +1,27 @@
+$color-red-a1: hsla(0, 100%, 51.0%, 0.012);
+$color-red-a2: hsla(0, 100%, 51.0%, 0.032);
+$color-red-a3: hsla(0, 100%, 50.2%, 0.063);
+$color-red-a4: hsla(0, 100%, 50.0%, 0.102);
+$color-red-a5: hsla(0, 99.9%, 47.5%, 0.153);
+$color-red-a6: hsla(0, 99.5%, 44.9%, 0.224);
+$color-red-a7: hsla(359, 99.7%, 42.7%, 0.318);
+$color-red-a8: hsla(359, 99.6%, 41.1%, 0.436);
+$color-red-a9: hsla(358, 99.9%, 42.9%, 0.718);
+$color-red-a10: hsla(358, 99.9%, 40.2%, 0.761);
+$color-red-a11: hsla(358, 99.8%, 36.7%, 0.836);
+$color-red-a12: hsla(351, 99.9%, 16.6%, 0.910);
+
+:root, .light, .light-theme {
+  --color-red-a1: #{$color-red-a1};
+  --color-red-a2: #{$color-red-a2};
+  --color-red-a3: #{$color-red-a3};
+  --color-red-a4: #{$color-red-a4};
+  --color-red-a5: #{$color-red-a5};
+  --color-red-a6: #{$color-red-a6};
+  --color-red-a7: #{$color-red-a7};
+  --color-red-a8: #{$color-red-a8};
+  --color-red-a9: #{$color-red-a9};
+  --color-red-a10: #{$color-red-a10};
+  --color-red-a11: #{$color-red-a11};
+  --color-red-a12: #{$color-red-a12};
+}

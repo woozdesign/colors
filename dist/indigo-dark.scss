@@ -1,0 +1,27 @@
+$color-indigo-1: hsl(229, 24.0%, 10.0%);
+$color-indigo-2: hsl(230, 36.4%, 12.9%);
+$color-indigo-3: hsl(228, 42.7%, 18.1%);
+$color-indigo-4: hsl(227, 45.6%, 21.4%);
+$color-indigo-5: hsl(227, 47.8%, 24.4%);
+$color-indigo-6: hsl(226, 50.3%, 28.8%);
+$color-indigo-7: hsl(226, 53.3%, 36.6%);
+$color-indigo-8: hsl(226, 60.0%, 52.0%);
+$color-indigo-9: hsl(226, 70.0%, 55.5%);
+$color-indigo-10: hsl(230, 73.9%, 63.3%);
+$color-indigo-11: hsl(235, 100%, 80.0%);
+$color-indigo-12: hsl(235, 93.0%, 93.0%);
+
+.dark, .dark-theme {
+  --color-indigo-1: #{$color-indigo-1};
+  --color-indigo-2: #{$color-indigo-2};
+  --color-indigo-3: #{$color-indigo-3};
+  --color-indigo-4: #{$color-indigo-4};
+  --color-indigo-5: #{$color-indigo-5};
+  --color-indigo-6: #{$color-indigo-6};
+  --color-indigo-7: #{$color-indigo-7};
+  --color-indigo-8: #{$color-indigo-8};
+  --color-indigo-9: #{$color-indigo-9};
+  --color-indigo-10: #{$color-indigo-10};
+  --color-indigo-11: #{$color-indigo-11};
+  --color-indigo-12: #{$color-indigo-12};
+}

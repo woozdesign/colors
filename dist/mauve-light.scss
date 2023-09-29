@@ -1,0 +1,27 @@
+$color-mauve-1: hsl(300, 26.0%, 99.0%);
+$color-mauve-2: hsl(270, 20.0%, 98.0%);
+$color-mauve-3: hsl(267, 13.8%, 95.3%);
+$color-mauve-4: hsl(265, 12.2%, 92.7%);
+$color-mauve-5: hsl(263, 11.6%, 90.3%);
+$color-mauve-6: hsl(261, 11.1%, 87.7%);
+$color-mauve-7: hsl(257, 10.8%, 84.3%);
+$color-mauve-8: hsl(249, 10.4%, 75.5%);
+$color-mauve-9: hsl(252, 6.0%, 57.3%);
+$color-mauve-10: hsl(250, 5.0%, 52.3%);
+$color-mauve-11: hsl(252, 5.0%, 40.7%);
+$color-mauve-12: hsl(260, 10.0%, 13.5%);
+
+:root, .light, .light-theme {
+  --color-mauve-1: #{$color-mauve-1};
+  --color-mauve-2: #{$color-mauve-2};
+  --color-mauve-3: #{$color-mauve-3};
+  --color-mauve-4: #{$color-mauve-4};
+  --color-mauve-5: #{$color-mauve-5};
+  --color-mauve-6: #{$color-mauve-6};
+  --color-mauve-7: #{$color-mauve-7};
+  --color-mauve-8: #{$color-mauve-8};
+  --color-mauve-9: #{$color-mauve-9};
+  --color-mauve-10: #{$color-mauve-10};
+  --color-mauve-11: #{$color-mauve-11};
+  --color-mauve-12: #{$color-mauve-12};
+}

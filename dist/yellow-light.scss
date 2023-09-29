@@ -1,0 +1,27 @@
+$color-yellow-1: hsl(60, 54.0%, 98.5%);
+$color-yellow-2: hsl(52, 100%, 93.9%);
+$color-yellow-3: hsl(53, 100%, 88.9%);
+$color-yellow-4: hsl(53, 93.7%, 83.9%);
+$color-yellow-5: hsl(52, 84.7%, 78.7%);
+$color-yellow-6: hsl(51, 73.0%, 72.4%);
+$color-yellow-7: hsl(48, 59.6%, 64.3%);
+$color-yellow-8: hsl(46, 55.0%, 52.9%);
+$color-yellow-9: hsl(53, 96.0%, 58.0%);
+$color-yellow-10: hsl(52, 95.0%, 52.0%);
+$color-yellow-11: hsl(42, 50.0%, 31.0%);
+$color-yellow-12: hsl(42, 40.0%, 20.0%);
+
+:root, .light, .light-theme {
+  --color-yellow-1: #{$color-yellow-1};
+  --color-yellow-2: #{$color-yellow-2};
+  --color-yellow-3: #{$color-yellow-3};
+  --color-yellow-4: #{$color-yellow-4};
+  --color-yellow-5: #{$color-yellow-5};
+  --color-yellow-6: #{$color-yellow-6};
+  --color-yellow-7: #{$color-yellow-7};
+  --color-yellow-8: #{$color-yellow-8};
+  --color-yellow-9: #{$color-yellow-9};
+  --color-yellow-10: #{$color-yellow-10};
+  --color-yellow-11: #{$color-yellow-11};
+  --color-yellow-12: #{$color-yellow-12};
+}

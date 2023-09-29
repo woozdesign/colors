@@ -1,0 +1,27 @@
+$color-gray-a1: hsla(0, 0%, 0%, 0.012);
+$color-gray-a2: hsla(0, 0%, 0%, 0.024);
+$color-gray-a3: hsla(0, 0%, 0%, 0.055);
+$color-gray-a4: hsla(0, 0%, 0%, 0.078);
+$color-gray-a5: hsla(0, 0%, 0%, 0.106);
+$color-gray-a6: hsla(0, 0%, 0%, 0.133);
+$color-gray-a7: hsla(0, 0%, 0%, 0.169);
+$color-gray-a8: hsla(0, 0%, 0%, 0.267);
+$color-gray-a9: hsla(0, 0%, 0%, 0.447);
+$color-gray-a10: hsla(0, 0%, 0%, 0.498);
+$color-gray-a11: hsla(0, 0%, 0%, 0.608);
+$color-gray-a12: hsla(0, 0%, 0%, 0.875);
+
+:root, .light, .light-theme {
+  --color-gray-a1: #{$color-gray-a1};
+  --color-gray-a2: #{$color-gray-a2};
+  --color-gray-a3: #{$color-gray-a3};
+  --color-gray-a4: #{$color-gray-a4};
+  --color-gray-a5: #{$color-gray-a5};
+  --color-gray-a6: #{$color-gray-a6};
+  --color-gray-a7: #{$color-gray-a7};
+  --color-gray-a8: #{$color-gray-a8};
+  --color-gray-a9: #{$color-gray-a9};
+  --color-gray-a10: #{$color-gray-a10};
+  --color-gray-a11: #{$color-gray-a11};
+  --color-gray-a12: #{$color-gray-a12};
+}

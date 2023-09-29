@@ -1,0 +1,27 @@
+$color-ruby-a1: hsla(340, 100%, 51.0%, 0.012);
+$color-ruby-a2: hsla(345, 100%, 51.0%, 0.032);
+$color-ruby-a3: hsla(344, 99.1%, 47.1%, 0.063);
+$color-ruby-a4: hsla(348, 99.9%, 46.2%, 0.102);
+$color-ruby-a5: hsla(346, 99.9%, 43.6%, 0.153);
+$color-ruby-a6: hsla(347, 99.6%, 41.2%, 0.220);
+$color-ruby-a7: hsla(348, 99.8%, 39.4%, 0.314);
+$color-ruby-a8: hsla(348, 99.7%, 38.2%, 0.428);
+$color-ruby-a9: hsla(348, 99.8%, 43.0%, 0.726);
+$color-ruby-a10: hsla(347, 99.9%, 40.6%, 0.773);
+$color-ruby-a11: hsla(345, 99.9%, 37.9%, 0.859);
+$color-ruby-a12: hsla(344, 99.9%, 16.6%, 0.910);
+
+:root, .light, .light-theme {
+  --color-ruby-a1: #{$color-ruby-a1};
+  --color-ruby-a2: #{$color-ruby-a2};
+  --color-ruby-a3: #{$color-ruby-a3};
+  --color-ruby-a4: #{$color-ruby-a4};
+  --color-ruby-a5: #{$color-ruby-a5};
+  --color-ruby-a6: #{$color-ruby-a6};
+  --color-ruby-a7: #{$color-ruby-a7};
+  --color-ruby-a8: #{$color-ruby-a8};
+  --color-ruby-a9: #{$color-ruby-a9};
+  --color-ruby-a10: #{$color-ruby-a10};
+  --color-ruby-a11: #{$color-ruby-a11};
+  --color-ruby-a12: #{$color-ruby-a12};
+}

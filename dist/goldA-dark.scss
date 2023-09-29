@@ -1,0 +1,27 @@
+$color-gold-a1: hsla(45, 99.2%, 3.8%, 0.209);
+$color-gold-a2: hsla(42, 100%, 50.0%, 0.013);
+$color-gold-a3: hsla(50, 99.6%, 77.3%, 0.052);
+$color-gold-a4: hsla(45, 97.6%, 81.5%, 0.087);
+$color-gold-a5: hsla(42, 96.5%, 83.3%, 0.122);
+$color-gold-a6: hsla(39, 98.3%, 84.3%, 0.178);
+$color-gold-a7: hsla(39, 98.6%, 85.2%, 0.269);
+$color-gold-a8: hsla(35, 99.4%, 85.7%, 0.468);
+$color-gold-a9: hsla(36, 99.8%, 82.1%, 0.550);
+$color-gold-a10: hsla(36, 99.7%, 85.0%, 0.628);
+$color-gold-a11: hsla(35, 99.9%, 88.9%, 0.775);
+$color-gold-a12: hsla(36, 98.3%, 96.7%, 0.901);
+
+.dark, .dark-theme {
+  --color-gold-a1: #{$color-gold-a1};
+  --color-gold-a2: #{$color-gold-a2};
+  --color-gold-a3: #{$color-gold-a3};
+  --color-gold-a4: #{$color-gold-a4};
+  --color-gold-a5: #{$color-gold-a5};
+  --color-gold-a6: #{$color-gold-a6};
+  --color-gold-a7: #{$color-gold-a7};
+  --color-gold-a8: #{$color-gold-a8};
+  --color-gold-a9: #{$color-gold-a9};
+  --color-gold-a10: #{$color-gold-a10};
+  --color-gold-a11: #{$color-gold-a11};
+  --color-gold-a12: #{$color-gold-a12};
+}

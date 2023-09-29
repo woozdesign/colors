@@ -1,0 +1,27 @@
+$color-green-1: hsl(146, 30.0%, 7.4%);
+$color-green-2: hsl(154, 31.8%, 8.6%);
+$color-green-3: hsl(154, 37.6%, 11.5%);
+$color-green-4: hsl(154, 41.0%, 13.6%);
+$color-green-5: hsl(154, 43.7%, 15.7%);
+$color-green-6: hsl(154, 46.7%, 18.7%);
+$color-green-7: hsl(153, 50.3%, 24.4%);
+$color-green-8: hsl(151, 52.2%, 36.1%);
+$color-green-9: hsl(151, 55.0%, 41.5%);
+$color-green-10: hsl(151, 55.2%, 46.7%);
+$color-green-11: hsl(151, 65.0%, 54.0%);
+$color-green-12: hsl(144, 70.0%, 82.0%);
+
+.dark, .dark-theme {
+  --color-green-1: #{$color-green-1};
+  --color-green-2: #{$color-green-2};
+  --color-green-3: #{$color-green-3};
+  --color-green-4: #{$color-green-4};
+  --color-green-5: #{$color-green-5};
+  --color-green-6: #{$color-green-6};
+  --color-green-7: #{$color-green-7};
+  --color-green-8: #{$color-green-8};
+  --color-green-9: #{$color-green-9};
+  --color-green-10: #{$color-green-10};
+  --color-green-11: #{$color-green-11};
+  --color-green-12: #{$color-green-12};
+}

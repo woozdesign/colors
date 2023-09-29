@@ -1,0 +1,27 @@
+$color-violet-1: hsl(250, 20.0%, 10.2%);
+$color-violet-2: hsl(255, 30.3%, 12.9%);
+$color-violet-3: hsl(254, 33.3%, 18.4%);
+$color-violet-4: hsl(253, 34.6%, 22.1%);
+$color-violet-5: hsl(253, 35.5%, 25.5%);
+$color-violet-6: hsl(252, 36.6%, 30.5%);
+$color-violet-7: hsl(251, 37.8%, 39.0%);
+$color-violet-8: hsl(250, 46.2%, 54.1%);
+$color-violet-9: hsl(252, 56.0%, 57.5%);
+$color-violet-10: hsl(253, 63.2%, 64.1%);
+$color-violet-11: hsl(255, 100%, 80.0%);
+$color-violet-12: hsl(250, 93.0%, 93.0%);
+
+.dark, .dark-theme {
+  --color-violet-1: #{$color-violet-1};
+  --color-violet-2: #{$color-violet-2};
+  --color-violet-3: #{$color-violet-3};
+  --color-violet-4: #{$color-violet-4};
+  --color-violet-5: #{$color-violet-5};
+  --color-violet-6: #{$color-violet-6};
+  --color-violet-7: #{$color-violet-7};
+  --color-violet-8: #{$color-violet-8};
+  --color-violet-9: #{$color-violet-9};
+  --color-violet-10: #{$color-violet-10};
+  --color-violet-11: #{$color-violet-11};
+  --color-violet-12: #{$color-violet-12};
+}

@@ -1,0 +1,27 @@
+$color-teal-1: hsl(167, 50.0%, 6.7%);
+$color-teal-2: hsl(166, 55.0%, 7.8%);
+$color-teal-3: hsl(167, 52.9%, 10.6%);
+$color-teal-4: hsl(168, 52.5%, 12.7%);
+$color-teal-5: hsl(169, 52.6%, 14.8%);
+$color-teal-6: hsl(169, 53.1%, 18.0%);
+$color-teal-7: hsl(171, 54.9%, 23.8%);
+$color-teal-8: hsl(173, 59.8%, 34.1%);
+$color-teal-9: hsl(173, 80.0%, 36.0%);
+$color-teal-10: hsl(172, 89.5%, 38.8%);
+$color-teal-11: hsl(170, 90.0%, 44.5%);
+$color-teal-12: hsl(163, 70.0%, 81.0%);
+
+.dark, .dark-theme {
+  --color-teal-1: #{$color-teal-1};
+  --color-teal-2: #{$color-teal-2};
+  --color-teal-3: #{$color-teal-3};
+  --color-teal-4: #{$color-teal-4};
+  --color-teal-5: #{$color-teal-5};
+  --color-teal-6: #{$color-teal-6};
+  --color-teal-7: #{$color-teal-7};
+  --color-teal-8: #{$color-teal-8};
+  --color-teal-9: #{$color-teal-9};
+  --color-teal-10: #{$color-teal-10};
+  --color-teal-11: #{$color-teal-11};
+  --color-teal-12: #{$color-teal-12};
+}

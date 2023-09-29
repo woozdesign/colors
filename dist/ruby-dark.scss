@@ -1,0 +1,27 @@
+$color-ruby-1: hsl(343, 23.0%, 10.0%);
+$color-ruby-2: hsl(349, 33.3%, 12.4%);
+$color-ruby-3: hsl(348, 42.2%, 16.4%);
+$color-ruby-4: hsl(348, 46.8%, 19.1%);
+$color-ruby-5: hsl(348, 50.7%, 21.7%);
+$color-ruby-6: hsl(348, 56.0%, 25.7%);
+$color-ruby-7: hsl(348, 64.3%, 33.0%);
+$color-ruby-8: hsl(348, 77.0%, 46.1%);
+$color-ruby-9: hsl(348, 75.0%, 58.5%);
+$color-ruby-10: hsl(349, 84.1%, 67.1%);
+$color-ruby-11: hsl(348, 100%, 76.0%);
+$color-ruby-12: hsl(340, 95.0%, 91.0%);
+
+.dark, .dark-theme {
+  --color-ruby-1: #{$color-ruby-1};
+  --color-ruby-2: #{$color-ruby-2};
+  --color-ruby-3: #{$color-ruby-3};
+  --color-ruby-4: #{$color-ruby-4};
+  --color-ruby-5: #{$color-ruby-5};
+  --color-ruby-6: #{$color-ruby-6};
+  --color-ruby-7: #{$color-ruby-7};
+  --color-ruby-8: #{$color-ruby-8};
+  --color-ruby-9: #{$color-ruby-9};
+  --color-ruby-10: #{$color-ruby-10};
+  --color-ruby-11: #{$color-ruby-11};
+  --color-ruby-12: #{$color-ruby-12};
+}

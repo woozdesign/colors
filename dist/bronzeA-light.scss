@@ -1,0 +1,27 @@
+$color-bronze-a1: hsla(0, 89.3%, 18.3%, 0.012);
+$color-bronze-a2: hsla(17, 95.1%, 40.1%, 0.036);
+$color-bronze-a3: hsla(18, 98.3%, 29.8%, 0.067);
+$color-bronze-a4: hsla(17, 99.6%, 26.0%, 0.106);
+$color-bronze-a5: hsla(19, 99.6%, 23.8%, 0.157);
+$color-bronze-a6: hsla(17, 99.2%, 22.5%, 0.220);
+$color-bronze-a7: hsla(18, 99.7%, 21.6%, 0.310);
+$color-bronze-a8: hsla(17, 99.5%, 20.2%, 0.420);
+$color-bronze-a9: hsla(18, 99.9%, 16.7%, 0.553);
+$color-bronze-a10: hsla(17, 99.0%, 14.9%, 0.597);
+$color-bronze-a11: hsla(15, 99.5%, 12.0%, 0.671);
+$color-bronze-a12: hsla(12, 98.7%, 5.7%, 0.832);
+
+:root, .light, .light-theme {
+  --color-bronze-a1: #{$color-bronze-a1};
+  --color-bronze-a2: #{$color-bronze-a2};
+  --color-bronze-a3: #{$color-bronze-a3};
+  --color-bronze-a4: #{$color-bronze-a4};
+  --color-bronze-a5: #{$color-bronze-a5};
+  --color-bronze-a6: #{$color-bronze-a6};
+  --color-bronze-a7: #{$color-bronze-a7};
+  --color-bronze-a8: #{$color-bronze-a8};
+  --color-bronze-a9: #{$color-bronze-a9};
+  --color-bronze-a10: #{$color-bronze-a10};
+  --color-bronze-a11: #{$color-bronze-a11};
+  --color-bronze-a12: #{$color-bronze-a12};
+}

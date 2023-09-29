@@ -1,0 +1,27 @@
+$color-iris-a1: hsla(240, 100%, 50.0%, 0.039);
+$color-iris-a2: hsla(243, 99.8%, 54.7%, 0.091);
+$color-iris-a3: hsla(244, 98.8%, 63.5%, 0.174);
+$color-iris-a4: hsla(242, 99.3%, 66.5%, 0.230);
+$color-iris-a5: hsla(241, 99.4%, 68.5%, 0.282);
+$color-iris-a6: hsla(240, 99.4%, 69.3%, 0.360);
+$color-iris-a7: hsla(240, 99.5%, 70.6%, 0.490);
+$color-iris-a8: hsla(240, 99.7%, 71.9%, 0.728);
+$color-iris-a9: hsla(240, 99.8%, 70.6%, 0.823);
+$color-iris-a10: hsla(241, 99.8%, 73.7%, 0.875);
+$color-iris-a11: hsla(242, 100%, 81.0%, 1);
+$color-iris-a12: hsla(242, 99.5%, 93.9%, 0.996);
+
+.dark, .dark-theme {
+  --color-iris-a1: #{$color-iris-a1};
+  --color-iris-a2: #{$color-iris-a2};
+  --color-iris-a3: #{$color-iris-a3};
+  --color-iris-a4: #{$color-iris-a4};
+  --color-iris-a5: #{$color-iris-a5};
+  --color-iris-a6: #{$color-iris-a6};
+  --color-iris-a7: #{$color-iris-a7};
+  --color-iris-a8: #{$color-iris-a8};
+  --color-iris-a9: #{$color-iris-a9};
+  --color-iris-a10: #{$color-iris-a10};
+  --color-iris-a11: #{$color-iris-a11};
+  --color-iris-a12: #{$color-iris-a12};
+}

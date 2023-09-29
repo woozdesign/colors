@@ -1,0 +1,27 @@
+$color-pink-1: hsl(318, 25.0%, 9.6%);
+$color-pink-2: hsl(318, 32.3%, 12.2%);
+$color-pink-3: hsl(318, 37.1%, 15.7%);
+$color-pink-4: hsl(319, 39.8%, 18.1%);
+$color-pink-5: hsl(319, 42.3%, 20.8%);
+$color-pink-6: hsl(319, 45.8%, 24.9%);
+$color-pink-7: hsl(320, 51.2%, 32.2%);
+$color-pink-8: hsl(322, 60.0%, 46.1%);
+$color-pink-9: hsl(322, 65.0%, 54.5%);
+$color-pink-10: hsl(324, 71.5%, 63.2%);
+$color-pink-11: hsl(325, 90.0%, 75.0%);
+$color-pink-12: hsl(325, 90.0%, 90.5%);
+
+.dark, .dark-theme {
+  --color-pink-1: #{$color-pink-1};
+  --color-pink-2: #{$color-pink-2};
+  --color-pink-3: #{$color-pink-3};
+  --color-pink-4: #{$color-pink-4};
+  --color-pink-5: #{$color-pink-5};
+  --color-pink-6: #{$color-pink-6};
+  --color-pink-7: #{$color-pink-7};
+  --color-pink-8: #{$color-pink-8};
+  --color-pink-9: #{$color-pink-9};
+  --color-pink-10: #{$color-pink-10};
+  --color-pink-11: #{$color-pink-11};
+  --color-pink-12: #{$color-pink-12};
+}

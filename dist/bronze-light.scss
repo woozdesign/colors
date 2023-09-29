@@ -1,0 +1,27 @@
+$color-bronze-1: hsl(15, 30.0%, 99.1%);
+$color-bronze-2: hsl(17, 63.6%, 97.8%);
+$color-bronze-3: hsl(17, 42.1%, 95.2%);
+$color-bronze-4: hsl(17, 35.2%, 92.1%);
+$color-bronze-5: hsl(17, 31.5%, 88.2%);
+$color-bronze-6: hsl(17, 29.0%, 83.0%);
+$color-bronze-7: hsl(17, 26.9%, 75.6%);
+$color-bronze-8: hsl(17, 25.1%, 66.5%);
+$color-bronze-9: hsl(17, 20.0%, 54.0%);
+$color-bronze-10: hsl(17, 17.9%, 49.3%);
+$color-bronze-11: hsl(15, 20.0%, 41.0%);
+$color-bronze-12: hsl(12, 22.0%, 21.5%);
+
+:root, .light, .light-theme {
+  --color-bronze-1: #{$color-bronze-1};
+  --color-bronze-2: #{$color-bronze-2};
+  --color-bronze-3: #{$color-bronze-3};
+  --color-bronze-4: #{$color-bronze-4};
+  --color-bronze-5: #{$color-bronze-5};
+  --color-bronze-6: #{$color-bronze-6};
+  --color-bronze-7: #{$color-bronze-7};
+  --color-bronze-8: #{$color-bronze-8};
+  --color-bronze-9: #{$color-bronze-9};
+  --color-bronze-10: #{$color-bronze-10};
+  --color-bronze-11: #{$color-bronze-11};
+  --color-bronze-12: #{$color-bronze-12};
+}

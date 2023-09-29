@@ -1,0 +1,27 @@
+$color-mauve-a1: hsla(300, 100%, 43.9%, 0.005);
+$color-mauve-a2: hsla(300, 99.7%, 69.7%, 0.026);
+$color-mauve-a3: hsla(288, 96.3%, 88.3%, 0.087);
+$color-mauve-a4: hsla(280, 96.6%, 90.3%, 0.126);
+$color-mauve-a5: hsla(280, 98.8%, 92.4%, 0.156);
+$color-mauve-a6: hsla(274, 98.7%, 92.9%, 0.195);
+$color-mauve-a7: hsla(270, 98.6%, 93.6%, 0.247);
+$color-mauve-a8: hsla(258, 98.4%, 94.3%, 0.351);
+$color-mauve-a9: hsla(251, 98.3%, 94.7%, 0.416);
+$color-mauve-a10: hsla(251, 99.3%, 95.6%, 0.498);
+$color-mauve-a11: hsla(253, 98.2%, 97.4%, 0.693);
+$color-mauve-a12: hsla(240, 82.2%, 99.5%, 0.936);
+
+.dark, .dark-theme {
+  --color-mauve-a1: #{$color-mauve-a1};
+  --color-mauve-a2: #{$color-mauve-a2};
+  --color-mauve-a3: #{$color-mauve-a3};
+  --color-mauve-a4: #{$color-mauve-a4};
+  --color-mauve-a5: #{$color-mauve-a5};
+  --color-mauve-a6: #{$color-mauve-a6};
+  --color-mauve-a7: #{$color-mauve-a7};
+  --color-mauve-a8: #{$color-mauve-a8};
+  --color-mauve-a9: #{$color-mauve-a9};
+  --color-mauve-a10: #{$color-mauve-a10};
+  --color-mauve-a11: #{$color-mauve-a11};
+  --color-mauve-a12: #{$color-mauve-a12};
+}

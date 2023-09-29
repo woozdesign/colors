@@ -1,0 +1,27 @@
+$color-grass-a1: hsla(120, 100%, 43.9%, 0.005);
+$color-grass-a2: hsla(120, 100%, 49.3%, 0.022);
+$color-grass-a3: hsla(139, 97.9%, 54.2%, 0.070);
+$color-grass-a4: hsla(137, 99.8%, 60.3%, 0.104);
+$color-grass-a5: hsla(138, 99.8%, 62.9%, 0.143);
+$color-grass-a6: hsla(136, 99.7%, 66.7%, 0.195);
+$color-grass-a7: hsla(135, 99.7%, 68.4%, 0.299);
+$color-grass-a8: hsla(131, 99.7%, 71.3%, 0.494);
+$color-grass-a9: hsla(131, 99.5%, 69.2%, 0.620);
+$color-grass-a10: hsla(131, 100%, 73.5%, 0.710);
+$color-grass-a11: hsla(131, 99.8%, 76.6%, 0.797);
+$color-grass-a12: hsla(120, 99.1%, 90.3%, 0.936);
+
+.dark, .dark-theme {
+  --color-grass-a1: #{$color-grass-a1};
+  --color-grass-a2: #{$color-grass-a2};
+  --color-grass-a3: #{$color-grass-a3};
+  --color-grass-a4: #{$color-grass-a4};
+  --color-grass-a5: #{$color-grass-a5};
+  --color-grass-a6: #{$color-grass-a6};
+  --color-grass-a7: #{$color-grass-a7};
+  --color-grass-a8: #{$color-grass-a8};
+  --color-grass-a9: #{$color-grass-a9};
+  --color-grass-a10: #{$color-grass-a10};
+  --color-grass-a11: #{$color-grass-a11};
+  --color-grass-a12: #{$color-grass-a12};
+}

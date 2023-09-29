@@ -1,0 +1,27 @@
+$color-orange-1: hsl(30, 70.0%, 7.2%);
+$color-orange-2: hsl(29, 81.4%, 8.4%);
+$color-orange-3: hsl(26, 68.4%, 12.0%);
+$color-orange-4: hsl(25, 64.6%, 14.9%);
+$color-orange-5: hsl(25, 64.3%, 17.8%);
+$color-orange-6: hsl(25, 65.7%, 21.9%);
+$color-orange-7: hsl(25, 67.7%, 29.4%);
+$color-orange-8: hsl(25, 70.3%, 44.9%);
+$color-orange-9: hsl(24, 94.0%, 50.0%);
+$color-orange-10: hsl(24, 100%, 58.5%);
+$color-orange-11: hsl(24, 100%, 70.0%);
+$color-orange-12: hsl(30, 100%, 88.0%);
+
+.dark, .dark-theme {
+  --color-orange-1: #{$color-orange-1};
+  --color-orange-2: #{$color-orange-2};
+  --color-orange-3: #{$color-orange-3};
+  --color-orange-4: #{$color-orange-4};
+  --color-orange-5: #{$color-orange-5};
+  --color-orange-6: #{$color-orange-6};
+  --color-orange-7: #{$color-orange-7};
+  --color-orange-8: #{$color-orange-8};
+  --color-orange-9: #{$color-orange-9};
+  --color-orange-10: #{$color-orange-10};
+  --color-orange-11: #{$color-orange-11};
+  --color-orange-12: #{$color-orange-12};
+}
