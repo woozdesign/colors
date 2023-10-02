@@ -1,6 +1,6 @@
 {
   "name": "@woozdesign/colors",
-  "version": "1.0.3",
+  "version": "1.0.31",
   "description": "woozdesign - colors",
   "contributors": [
     "Leo Kim <kim.kw8012@gmail.com>"
@@ -19,6 +19,7 @@
   },
   "files": [
     "index.js",
+    "colors.scss",
     "dist"
   ],
   "author": "Leo Kim <kim.kw8012@gmail.com> (http://woozlabs.com/)",
