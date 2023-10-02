@@ -17,5 +17,5 @@ import '@woozdesign/colors'; // Import color tokens inside the root file
 or
 
 ```scss
-@import '~@woozdesign/colors/dist/colors';
+@import '~@woozdesign/colors/colors.scss';
 ```
