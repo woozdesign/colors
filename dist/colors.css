@@ -1857,3 +1857,33 @@
   --color-orange-a11: hsl(24, 100%, 70%);
   --color-orange-a12: hsl(30, 100%, 88%);
 }
+
+:root {
+  --color-black-a1: rgba(0, 0, 0, 0.05);
+  --color-black-a2: rgba(0, 0, 0, 0.1);
+  --color-black-a3: rgba(0, 0, 0, 0.15);
+  --color-black-a4: rgba(0, 0, 0, 0.2);
+  --color-black-a5: rgba(0, 0, 0, 0.3);
+  --color-black-a6: rgba(0, 0, 0, 0.4);
+  --color-black-a7: rgba(0, 0, 0, 0.5);
+  --color-black-a8: rgba(0, 0, 0, 0.6);
+  --color-black-a9: rgba(0, 0, 0, 0.7);
+  --color-black-a10: rgba(0, 0, 0, 0.8);
+  --color-black-a11: rgba(0, 0, 0, 0.9);
+  --color-black-a12: rgba(0, 0, 0, 0.95);
+}
+
+:root {
+  --color-white-a1: rgba(255, 255, 255, 0.05);
+  --color-white-a2: rgba(255, 255, 255, 0.1);
+  --color-white-a3: rgba(255, 255, 255, 0.15);
+  --color-white-a4: rgba(255, 255, 255, 0.2);
+  --color-white-a5: rgba(255, 255, 255, 0.3);
+  --color-white-a6: rgba(255, 255, 255, 0.4);
+  --color-white-a7: rgba(255, 255, 255, 0.5);
+  --color-white-a8: rgba(255, 255, 255, 0.6);
+  --color-white-a9: rgba(255, 255, 255, 0.7);
+  --color-white-a10: rgba(255, 255, 255, 0.8);
+  --color-white-a11: rgba(255, 255, 255, 0.9);
+  --color-white-a12: rgba(255, 255, 255, 0.95);
+}
