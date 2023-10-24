@@ -16,3 +16,5 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./dark"), exports);
 __exportStar(require("./light"), exports);
+__exportStar(require("./black"), exports);
+__exportStar(require("./white"), exports);

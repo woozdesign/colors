@@ -2,12 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const sass = require('sass');
 
-const allColors = { ...require('../dist/light.js'), ...require('../dist/dark.js') };
+const allColors = { ...require('../dist/light.js'), ...require('../dist/dark.js'), ...require('../dist/black.js'), ...require('../dist/white.js') };
 const outputDir = './dist';
 
 const themes = {
   light: ':root, .light, .light-theme {\n',
   dark: '.dark, .dark-theme {\n',
+  default: ':root {\n',
 };
 
 function generateScssFile(colorObj, theme, colorName) {
@@ -40,7 +41,14 @@ function main() {
   let importContent = '';
 
   for (const colorNameWithTheme in allColors) {
-    const theme = colorNameWithTheme.endsWith('_light') ? 'light' : 'dark';
+    let theme = '';
+    if (colorNameWithTheme.endsWith('_light')) {
+      theme = 'light';
+    } else if (colorNameWithTheme.endsWith('_dark')) {
+      theme = 'dark';
+    } else {
+      theme = 'default';
+    }
     const colorName = colorNameWithTheme.replace(`_${theme}`, '');
     generateScssFile(allColors[colorNameWithTheme], theme, colorName);
     importContent += `@import "${colorName}-${theme}.scss";\n`;
